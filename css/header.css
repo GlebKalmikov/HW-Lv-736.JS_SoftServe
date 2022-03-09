@@ -1,3 +1,22 @@
 .header {
     background-color: brown;
 }
+
+/*Fonts used
+    font-family: 'Prata', serif;            //headers
+    font-family: 'Rubik', sans-serif;       //paragraphs
+    font-family: 'Great Vibes', cursive;    //orange cursive
+*/
+
+:root {
+    background-color: var(--background-color);
+    --orange-main-color: #c8693a;
+    --background-color: #261e1c;
+    --background-darker-color: #241918;
+    --text-color-main: #ffffff;
+    --text-color-paragraph: #898082;
+    --button-hover-color: #af572b;
+    --form-box-background-color: #25211f;
+    --footer-background-color: #1b1613;
+    --copyright-plack-color: #130f0e;
+}
