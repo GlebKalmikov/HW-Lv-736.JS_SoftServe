@@ -26,53 +26,6 @@
     --copyright-plack-color: #130f0e;
 }
 
-
-/* Red and white wine section */
-
-.red-wines-section {
-    background-color: var(--background-color);
-    color: var(--text-color-main);
-    font-family: 'Rubik', sans-serif;
-    background-image: url(../img/shop-red-wines.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-    min-height: 300px;
-    padding: 40px;
-    margin: 55px 30px;
-}
-
-.red-wines-section > h2,
-.white-wines-section > h2 {
-    font-family: 'Prata', serif;
-}
-
-.red-wines-section > h2,
-.white-wines-section > h2,
-.red-wines-section > p,
-.white-wines-section > p,
-.red-wines-section > a,
-.white-wines-section > a {
-    margin: 20px 0;
-}
-
-.white-wines-section {
-    background-color: var(--background-color);
-    color: var(--text-color-main);
-    font-family: 'Rubik', sans-serif;
-    background-image: url(../img/shop-white-wine.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-    min-height: 300px;
-    padding: 40px;
-    margin: 55px 30px;
-}
-
-.orange-line-short {
-    border: solid 1px var(--orange-main-color);
-    width: 40px;
-    margin: 10px 0;
-}
-
 .button-orange {
     background-color: var(--orange-main-color);
     color: var(--text-color-main);
@@ -88,58 +41,11 @@
     background-color: var(--button-hover-color);
 }
 
-/* Awards section */
-.orange-cursive {
-    font-family: 'Great Vibes', cursive;
-    color: var(--orange-main-color);
-    text-align: center;
-}
-
-.award-section {
-    color: var(--text-color-main);
-    font-family: 'Rubik', sans-serif;
-    margin: 55px 30px;
-}
-
-.award-section > header {
-    font-family: 'Prata', serif; 
-    font-size: 34px;
-    margin: 20px 0;
-    text-align: center;
-}
-
-.award-section > p {
-    font-size: 18px;
-    line-height: 18px;
-    margin: 20px 0;
-    text-align: center;
-}
 
 .vine-monogram {
     height: 31px;
 }
 
-.award-section-image {
-    height: 150px;
-    margin: 60px 0;
-}
-
-.award-section-name {
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
-}
-
-.award-section-paragraph {
-    color: var(--text-color-paragraph);
-    font-size: 16px;
-    line-height: 30px;
-}
-
-.award-year {
-    font-family: 'Prata', serif;
-    font-size: 22px;
-    padding: 55px 0;
-}
 .text-ui-brand-color {
     vertical-align: baseline;
     text-align: center;

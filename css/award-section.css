@@ -1,0 +1,49 @@
+/* Awards section */
+.orange-cursive {
+    font-family: 'Great Vibes', cursive;
+    color: var(--orange-main-color);
+    text-align: center;
+}
+
+.award-section {
+    color: var(--text-color-main);
+    font-family: 'Rubik', sans-serif;
+    margin: 55px 30px;
+}
+
+.award-section > header {
+    font-family: 'Prata', serif; 
+    font-size: 34px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.award-section > p {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+.award-section-image {
+    height: 150px;
+    margin: 60px 0;
+}
+
+.award-section-name {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.award-section-paragraph {
+    color: var(--text-color-paragraph);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.award-year {
+    font-family: 'Prata', serif;
+    font-size: 22px;
+    padding: 55px 0;
+}
