@@ -1,8 +1,36 @@
 .faq__name {
     color: white;
-    font-size: 40px;
+    font-size: 40px;  
  }
  
  .faq__question {
      color: white;
  }
+
+.services {
+    color: white;
+}
+
+.section-paragraph {
+    color: var(--text-color-paragraph);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.join {
+    font-size: 30px;
+     color: white;
+}
+
+.join-paragraph {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.paragraph-end {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
