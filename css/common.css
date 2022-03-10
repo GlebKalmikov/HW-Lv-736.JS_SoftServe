@@ -140,3 +140,8 @@
     font-size: 22px;
     padding: 55px 0;
 }
+.text-ui-brand-color {
+    vertical-align: baseline;
+    text-align: center;
+    color: var(--ui-brand-color)
+}
