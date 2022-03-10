@@ -10,57 +10,77 @@
 </head>
 
 <body>
-  <!-- Main page block start -->
+  <!-- Header -->
   <header class="header">
     <!-- Main page block-->
-    <div class="main-page-block">
+    <div class="container">
+      <!-- Container -->
       <div class="caliwines-icon-block">
         <img width="50" src="img/caliwines-icon.png" alt="main-wine-icon" />
         <h1>CaliWines</h1>
         <p>Family-owned winery & shop</p>
       </div>
-      <div class="main-page-buttons">
-        <a href="#">Best Deals</a>
-        <a href="#">History</a>
-        <a href="#">About us</a>
-        <a href="#">Shop</a>
-        <a href="#">Contact Us</a>
+      <!-- Buger menu -->
+      <div class="burger-menu">
+        <label class="burger-icon" for="burger-checkbox">☰</label>
+        <input type="checkbox" id="burger-checkbox" />
+        <a href="#best-deals" class="header__nav-menu-item">Best Deals</a>
+        <a href="#history" class="header__nav-menu-item">History</a>
+        <a href="#about-us.html" class="header__nav-menu-item">About us</a>
+        <a href="#shop.html" class="header__nav-menu-item">Shop</a>
+        <a href="#contact-us" class="header__nav-menu-item">Contact Us</a>
       </div>
+      <!-- Main-page-socialmedia-icons -->
       <div class="main-page-socialmedia-icons">
         <img width="20" src="img/main-facebook-icon.png" alt="facebook-icon" />
         <img width="20" src="img/main-instagram-icon.png" alt="instagram-icon" />
         <img width="20" src="img/main-youtube-icon.png" alt="youtube-icon" />
       </div>
+      <!-- Main-page-text -->
       <div class="main-page-text">
-        <h2>Taste our Boutique Wines</h2>
+        <!-- boutique-wines-text -->
+        <div class="taste-our-text">Taste our</div>
+        <h2 class="boutique-wines-text">Boutique Wines</h2>
         <img src="img/main-text-icon.svg" alt="main-text-icon" />
-        <h3>Grown with love and respect for the California lands.</h3>
-          <button name="button">Shop now</button>
-          <button name="button">Learn more</button>
+        <h3 class="grown-with-love-text">
+          Grown with love and respect for the California lands.
+        </h3>
+        <button class="main-page-first-button" name="button">Shop now</button>
+        <button class="main-page-second-button" name="button">Learn more</button>
       </div>
     </div>
+    <!-- Presentation-page -->
     <div class="presentation-page">
+      <!-- Special-events-block -->
       <div class="special-events-block">
         <img src="img/special-events-block-image.png" alt="special-events-block-image" />
-        <h1>For Your Special Events</h1>
-        <p>We have a great collection of exclusive reserve wines.</p>
+        <h1 class="presentation-block-text">For Your Special Events</h1>
+        <p class="presentation-block-paragraph">
+          We have a great collection of exclusive reserve wines.
+        </p>
         <a href="#best-deals">Learn more</a>
       </div>
+      <!-- Organic-wines-block -->
       <div class="organic-wines-block">
         <img src="img/organic-wines-block-image.png" alt="organic-wines-block-image" />
-        <h2>100% Organic Wines</h2>
-        <p>Only natural wine without all kinds of additives or flavors.</p>
+        <h2 class="presentation-block-text">100% Organic Wines</h2>
+        <p class="presentation-block-paragraph">
+          Only natural wine without all kinds of additives or flavors.
+        </p>
         <a href="#best-deals">Learn more</a>
       </div>
+      <!-- Grape-varieties-block -->
       <div class="grape-varieties-block">
         <img src="img/grape-varieties-block-image.png" alt="grape-varieties-block-image" />
-        <h3>Selected Grape Varieties</h3>
-        <p>We produce and sell the finest wines made of the best grape varieties.</p>
+        <h3 class="presentation-block-text">Selected Grape Varieties</h3>
+        <p class="presentation-block-paragraph">
+          We produce and sell the finest wines made of the best grape varieties.
+        </p>
         <a href="#best-deals">Learn more</a>
       </div>
     </div>
   </header>
-  <!-- Oleksandr`s block end -->
+  <!-- Header -->
   <!--Glib blok start-->
   <section>
     <a class="text-ui-brand-color">Best deals</a>
