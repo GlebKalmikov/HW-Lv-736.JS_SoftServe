@@ -1,14 +1,14 @@
 .header {
     background-color: var(--background-color);
-}
-
-/*Fonts used
-    font-family: 'Prata', serif;            //headers
-    font-family: 'Rubik', sans-serif;       //paragraphs
-    font-family: 'Great Vibes', cursive;    //orange cursive
-*/
-
-:root {
+  }
+  
+  /*Fonts used
+      font-family: 'Prata', serif;            //headers
+      font-family: 'Rubik', sans-serif;       //paragraphs
+      font-family: 'Great Vibes', cursive;    //orange cursive
+  */
+  
+  :root {
     background-color: var(--background-color);
     --orange-main-color: #c8693a;
     --background-color: #261e1c;
@@ -19,4 +19,58 @@
     --form-box-background-color: #25211f;
     --footer-background-color: #1b1613;
     --copyright-plack-color: #130f0e;
-}
+  }
+  .burger-menu {
+    color: var(--background-color);
+    line-height: normal;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .main-page-first-button {
+    background-color: var(--orange-main-color);
+    color: var(--text-color-main);
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 2px;
+  }
+  .main-page-second-button {
+    background-color: transparent;
+    color: var(--text-color-main);
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 2px;
+    border-color: #ffffff;
+  }
+  .boutique-wines-text {
+    font-family: 'Prata', serif;
+    color: var(--text-color-main);
+  }
+  .taste-our-text {
+    color: var(--orange-main-color);
+    font-family: 'Great Vibes';
+  }
+  .caliwines-icon-block {
+    font-family: 'Great Vibes';
+    color: var(--text-color-main);
+  }
+  .grown-with-love-text {
+    font-family: 'Rubik', sans-serif;
+    color: var(--text-color-main);
+  }
+  .presentation-block-text {
+    font-family: 'Prata', serif;
+    color: var(--text-color-main);
+  }
+  .presentation-block-paragraph {
+    font-family: 'Rubik', sans-serif;
+    color: var(--text-color-paragraph);
+  }
+  
