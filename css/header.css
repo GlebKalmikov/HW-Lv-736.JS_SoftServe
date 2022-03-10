@@ -9,6 +9,10 @@
     font-weight: 400;
     font-style: normal;
   }
+  .header-nav-logo {
+    font-family: 'Great Vibes';
+    color: var(--text-color-main);
+  }
   .main-page-first-button {
     background-color: var(--orange-main-color);
     color: var(--text-color-main);
