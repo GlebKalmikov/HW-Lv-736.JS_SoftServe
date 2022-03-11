@@ -40,4 +40,5 @@
     border: solid 1px var(--orange-main-color);
     width: 40px;
     margin: 10px 0;
+    background-color: var(--orange-main-color);
 }
