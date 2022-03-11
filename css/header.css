@@ -5,6 +5,13 @@
     font-family: 'Great Vibes';
     color: var(--text-color-main);
   }
+  .header__nav-menu-item {
+    color: var(--text-color-main);
+    text-decoration: none;
+}
+.header__nav-menu-item:hover {
+  color: var(--orange-main-color);
+}
   .main-page-first-button {
     background-color: var(--orange-main-color);
     color: var(--text-color-main);

@@ -2,6 +2,7 @@
 .presentation-block-text {
     font-family: 'Prata', serif;
     color: var(--text-color-main);
+    font-weight: normal;
   }
   .presentation-block-paragraph {
     font-family: 'Rubik', sans-serif;
@@ -11,12 +12,53 @@
     background-color: var(--background-color);
     color: var(--text-color-main);
     font-family: 'Rubik', sans-serif;
-    background-image: url(../img/shop-red-wines.jpg);
+    background-image: url(/img/special-events-block-image.png);
     background-size: cover;
     background-position: 50% 50%;
     min-height: 300px;
     padding: 40px;
     margin: 55px 30px;
-  }
-  
+}
+.organic-wines-section {
+  background-color: var(--background-color);
+  color: var(--text-color-main);
+  font-family: 'Rubik', sans-serif;
+  background-image: url(/img/organic-wines-block-image.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 300px;
+  padding: 40px;
+  margin: 55px 30px;
+}
+.grape-varieties-section {
+    background-color: var(--background-color);
+    color: var(--text-color-main);
+    font-family: 'Rubik', sans-serif;
+    background-image: url(/img/grape-varieties-block-image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 300px;
+    padding: 40px;
+    margin: 55px 30px;
+}
+  .special-events-section > h2,
+   .special-events-section > p, 
+   .special-events-section > a, 
+   .organic-wines-section > h2,
+    .organic-wines-section > p, 
+    .organic-wines-section > a,
+     .grape-varieties-section > h2,
+      .grape-varieties-section > p,
+      .grape-varieties-section > a {
+    margin: 20px 0;
+}
+.presentation-link-style {
+  color: var(--text-color-main);
+  text-decoration: none;
+  font-weight: bold;
+}
+.presentation-link-style:hover {
+  text-decoration: underline;
+}
+
   
