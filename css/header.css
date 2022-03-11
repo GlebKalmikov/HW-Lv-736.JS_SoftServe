@@ -13,8 +13,8 @@
   color: var(--orange-main-color);
 }
 .container {
-  background-color:--background-color ;
-  background: rgb(255, 234, 13);
+  background-color:black ;
+  opacity: 0.2;
 }
   .main-page-first-button {
     background-color: var(--orange-main-color);
