@@ -42,3 +42,9 @@
     margin: 10px 0;
     background-color: var(--orange-main-color);
 }
+
+@media (min-width: 760px) {
+    .red-and-white {
+        display: flex;
+    }
+}
