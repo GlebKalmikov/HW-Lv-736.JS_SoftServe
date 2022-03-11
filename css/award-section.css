@@ -46,3 +46,49 @@
     font-size: 22px;
     padding: 55px 0;
 }
+
+@media (min-width: 760px) {
+    .award-section-image {
+      height: 95px;  
+    }
+
+    .award-section-image,
+    .award-section-name,
+    .award-year,
+    .award-section-paragraph {
+        padding: 10px;
+    }
+
+    .award-section-paragraph {
+        max-width: 60%;
+    }
+
+    .award-section-1956 {
+        align-items: center;
+        display: flex;
+        grid-column: 1 / 5;
+        grid-row: 1 / 2;
+    }
+    
+    .award-section-1992 {
+        align-items: center;
+        display: flex;
+        grid-column: 1 / 5;
+        grid-row: 2 / 3;
+    }
+
+    .award-section-2016 {
+        align-items: center;
+        display: flex;
+        grid-column: 1 / 5;
+        grid-row: 3 / 4;
+    }
+
+    .award-section-2019 {
+        align-items: center;
+        display: flex;
+        grid-column: 1 / 5;
+        grid-row: 4 / 5;
+    }
+    
+}
