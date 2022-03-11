@@ -1,0 +1,22 @@
+
+.presentation-block-text {
+    font-family: 'Prata', serif;
+    color: var(--text-color-main);
+  }
+  .presentation-block-paragraph {
+    font-family: 'Rubik', sans-serif;
+    color: var(--text-color-paragraph);
+  }
+  .special-events-section {
+    background-color: var(--background-color);
+    color: var(--text-color-main);
+    font-family: 'Rubik', sans-serif;
+    background-image: url(../img/shop-red-wines.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 300px;
+    padding: 40px;
+    margin: 55px 30px;
+  }
+  
+  
