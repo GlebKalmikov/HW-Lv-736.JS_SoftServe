@@ -12,6 +12,10 @@
 .header__nav-menu-item:hover {
   color: var(--orange-main-color);
 }
+.container {
+  background-color:--background-color ;
+  background: rgb(255, 234, 13);
+}
   .main-page-first-button {
     background-color: var(--orange-main-color);
     color: var(--text-color-main);
