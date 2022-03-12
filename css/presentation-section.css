@@ -1,4 +1,10 @@
 
+.presentation-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 70px 
+
+}
 .presentation-block-text {
     font-family: 'Prata', serif;
     color: var(--text-color-main);

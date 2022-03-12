@@ -1,5 +1,8 @@
 .header {
     background-color: var(--background-color);
+  background-image: url(/img/boutique-wines-image.jpg);
+  background-position: auto;
+
   }
   .header-nav-logo {
     font-family: 'Great Vibes';
@@ -12,10 +15,7 @@
 .header__nav-menu-item:hover {
   color: var(--orange-main-color);
 }
-.container {
-  background-color:black ;
-  opacity: 0.2;
-}
+
   .main-page-first-button {
     background-color: var(--orange-main-color);
     color: var(--text-color-main);
