@@ -46,6 +46,8 @@
 @media (min-width: 760px) {
     .red-and-white {
         display: flex;
+        max-width: 1200px;
+        margin: auto;
     }
 
     .red-wines-section,

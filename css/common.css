@@ -24,6 +24,7 @@
     --form-box-background-color: #25211f;
     --footer-background-color: #1b1613;
     --copyright-plack-color: #130f0e;
+    scroll-behavior: smooth;
 }
 
 .button-orange {

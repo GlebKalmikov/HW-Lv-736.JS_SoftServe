@@ -1,0 +1,48 @@
+.discount-section {
+    background-image: url(../img/discount-background.webp);
+    color: var(--text-color-main);
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    min-height: 290px;
+    max-height: 340px;
+    max-width: 1150px;
+    margin: auto;
+    background-color: #c8693a;
+    padding-left: 30px;
+}
+
+.discount-section > header {
+    font-family: 'Prata', serif; 
+    font-size: 34px;
+    margin: 20px 0;
+    text-align: center;
+    text-align: left;
+}
+
+.discount-section > p {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 20px 0;
+    text-align: center;
+    text-align: left;
+}
+
+.discount-section-join-button {
+    background-color: none;
+    color: var(--text-color-main);
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    border: solid 3px white;
+    border-radius: 2px;
+    width: 70px;
+}
+
+.discount-section-join-button:hover {
+    background-color: white;
+    color: var(--button-hover-color);
+}
