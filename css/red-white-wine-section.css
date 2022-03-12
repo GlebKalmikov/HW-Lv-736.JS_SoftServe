@@ -7,7 +7,7 @@
     background-position: 50% 50%;
     min-height: 300px;
     padding: 40px;
-    margin: 55px 30px;
+    margin: 40px 30px;
 }
 
 .red-wines-section > h2,
@@ -33,7 +33,7 @@
     background-position: 50% 50%;
     min-height: 300px;
     padding: 40px;
-    margin: 55px 30px;
+    margin: 40px 30px;
 }
 
 .orange-line-short {
@@ -46,5 +46,10 @@
 @media (min-width: 760px) {
     .red-and-white {
         display: flex;
+    }
+
+    .red-wines-section,
+    .white-wines-section {
+        width: 50%;
     }
 }
