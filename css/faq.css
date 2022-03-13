@@ -2,13 +2,23 @@
     color: white;
     font-size: 40px;  
  }
+
+ .orange-cursive-join {
+    font-family: 'Great Vibes', cursive;
+    color: var(--orange-main-color);
+    text-align: left;
+    font-size: 30px;
+ }
  
  .faq__question {
      color: white;
+     font-size: 30px;
+     margin: 20px 0px 25px 0px;
  }
 
 .services {
     color: white;
+    font-size: 25px;
 }
 
 .section-paragraph {
@@ -27,7 +37,9 @@
     font-size: 20px;
 }
 
-
+.indent {
+    margin: 20px 0px 25px 0px;
+}
 
 .paragraph-end {
     color: white;
