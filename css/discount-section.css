@@ -1,3 +1,7 @@
+.discount-section-center {
+    padding: 35px 30px;
+}
+
 .discount-section {
     background-image: url(../img/discount-background.webp);
     color: var(--text-color-main);
@@ -40,9 +44,20 @@
     border: solid 3px white;
     border-radius: 2px;
     width: 70px;
+    display: flex;
 }
 
 .discount-section-join-button:hover {
     background-color: white;
     color: var(--button-hover-color);
+}
+
+.discount-join {
+    margin: auto;
+    width: auto;
+}
+
+.button-arrow {
+    margin: auto 10px;
+    width: auto;
 }

@@ -57,19 +57,13 @@
     .award-section-image {
       height: 95px;  
       margin: 0;
+      padding: 0 15px 0 0;
     }
 
     .award-section-name {
         min-width: 100px;
         max-width: 300px;
-        flex-grow: 1.2;
-    }
-
-    .award-section-image,
-    .award-section-name,
-    .award-year,
-    .award-section-paragraph {
-        padding: 10px;
+        flex-grow: 1.4;
     }
 
     .award-section-paragraph {
@@ -78,26 +72,15 @@
 
     .award-year {
         max-width: 160px;
-    }
-
-    .award-section-1956 {
-        align-items: center;
-        display: flex;
+        margin: 0 15px 0 15px;
+        min-width: 70px;
     }
     
-    .award-section-1992 {
-        align-items: center;
-        display: flex;
-    }
-
-    .award-section-2016 {
-        align-items: center;
-        display: flex;
-    }
-
+    .award-section-1956,
+    .award-section-1992,
+    .award-section-2016,
     .award-section-2019 {
         align-items: center;
         display: flex;
     }
-    
 }

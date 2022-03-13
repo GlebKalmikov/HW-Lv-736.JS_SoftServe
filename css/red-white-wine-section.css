@@ -24,6 +24,11 @@
     margin: 20px 0;
 }
 
+.red-wines-section > p,
+.white-wines-section > p {
+    margin-bottom: 35px;
+}
+
 .white-wines-section {
     background-color: var(--background-color);
     color: var(--text-color-main);
@@ -46,13 +51,18 @@
 @media (min-width: 760px) {
     .red-and-white {
         display: flex;
-        max-width: 1170px;
+        max-width: 1180px;
         margin: auto;
+        padding: 0 30px;
     }
 
-    .red-wines-section,
+    .red-wines-section {
+        width: 50%;
+        margin: 40px 15px 20px 0;
+    }
+
     .white-wines-section {
         width: 50%;
-        margin: 0;
+        margin: 40px 0 20px 15px;
     }
 }
