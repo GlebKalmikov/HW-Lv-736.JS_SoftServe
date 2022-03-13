@@ -1,3 +1,7 @@
+.discount-section-center {
+    padding: 35px 30px;
+}
+
 .discount-section {
     background-image: url(../img/discount-background.webp);
     color: var(--text-color-main);
@@ -8,7 +12,7 @@
     min-height: 290px;
     max-height: 340px;
     max-width: 1150px;
-    margin: 35px 30px;
+    margin: auto;
     background-color: #c8693a;
     padding-left: 30px;
 }
