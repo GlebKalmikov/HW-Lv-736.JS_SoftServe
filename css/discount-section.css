@@ -8,7 +8,7 @@
     min-height: 290px;
     max-height: 340px;
     max-width: 1150px;
-    margin: auto;
+    margin: 35px 30px;
     background-color: #c8693a;
     padding-left: 30px;
 }
@@ -40,9 +40,20 @@
     border: solid 3px white;
     border-radius: 2px;
     width: 70px;
+    display: flex;
 }
 
 .discount-section-join-button:hover {
     background-color: white;
     color: var(--button-hover-color);
+}
+
+.discount-join {
+    margin: auto;
+    width: auto;
+}
+
+.button-arrow {
+    margin: auto 10px;
+    width: auto;
 }
