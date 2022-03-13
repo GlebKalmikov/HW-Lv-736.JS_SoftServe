@@ -5,7 +5,7 @@
   max-width: 1170px;
   margin-top:55px;
 }
-.presentation-block-text {
+.head-block-text {
     font-family: 'Prata', serif;
     color: var(--text-color-main);
     font-weight: normal;
@@ -65,6 +65,9 @@
 }
 .presentation-link-style:hover {
   text-decoration: underline;
+}
+.presentation-content-text {
+  
 }
 @media (max-width: 740px) {
   .presentation-section {

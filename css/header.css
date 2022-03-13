@@ -6,6 +6,11 @@
   height: 800px ;
 
   }
+  @media (min-width: 600px) {
+    .header__nav .container {
+      display: flex;
+    }
+  }
   .header-nav-logo {
     font-family: 'Great Vibes';
     color: var(--text-color-main);
