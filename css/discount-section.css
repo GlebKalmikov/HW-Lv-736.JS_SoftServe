@@ -1,4 +1,4 @@
-.discount-section-center {
+.discount-section-center {    
     padding: 35px 30px;
 }
 
@@ -8,28 +8,24 @@
     font-family: 'Rubik', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content:space-evenly;
     min-height: 290px;
     max-height: 340px;
     max-width: 1150px;
     margin: auto;
     background-color: #c8693a;
-    padding-left: 30px;
+    padding: 30px;
 }
 
 .discount-section > header {
     font-family: 'Prata', serif; 
     font-size: 34px;
-    margin: 20px 0;
-    text-align: center;
     text-align: left;
 }
 
 .discount-section > p {
     font-size: 18px;
     line-height: 18px;
-    margin: 20px 0;
-    text-align: center;
     text-align: left;
 }
 
