@@ -1,8 +1,10 @@
 .header {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
   background-image: url(/img/boutique-wines-image.jpg);
-  background-position: auto;
-
+  background-size: cover;
+  background-position: center;
+  padding-top: 0px;
+  padding-bottom: 10px;
   }
   .header-nav-logo {
     font-family: 'Great Vibes';
@@ -15,7 +17,18 @@
 .header__nav-menu-item:hover {
   color: var(--orange-main-color);
 }
-
+  @media (max-width: 740px) {
+    .main-page {
+      display: flex;
+      flex-direction: row;
+      padding-top: 215.5px;
+      padding-bottom: 300.5px;
+    }
+    .main-page-text {
+      padding-left: 20px;
+      padding-right: 0px;
+      margin-top: -50px;
+      }
   .main-page-first-button {
     background-color: var(--orange-main-color);
     color: var(--text-color-main);
@@ -37,19 +50,23 @@
     border-radius: 2px;
     border-color: #ffffff;
   }
+  .main-text-icon {
+    padding-left: 18px;
+  }
   .boutique-wines-text {
     font-family: 'Prata', serif;
     color: var(--text-color-main);
+    padding: 20px;
+    font-size: 60px;
+    font-weight: lighter;
   }
   .taste-our-text {
     color: var(--orange-main-color);
     font-family: 'Great Vibes';
-  }
-  .caliwines-icon-block {
-    font-family: 'Great Vibes';
-    color: var(--text-color-main);
+    padding-left: 20px;
   }
   .grown-with-love-text {
     font-family: 'Rubik', sans-serif;
     color: var(--text-color-main);
+  }
   }
