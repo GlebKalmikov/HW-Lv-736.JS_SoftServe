@@ -2,9 +2,9 @@
   background-color: var(--background-color);
   background-image: url(/img/boutique-wines-image.jpg);
   background-size: cover;
-  background-position: center;
-  padding-top: 0px;
-  padding-bottom: 10px;
+  background-position: right;
+  height: 800px ;
+
   }
   .header-nav-logo {
     font-family: 'Great Vibes';
@@ -17,7 +17,18 @@
 .header__nav-menu-item:hover {
   color: var(--orange-main-color);
 }
-  @media (max-width: 740px) {
+.main-page-text {
+  display: flex;
+}
+
+.left-container {
+  display: block;
+}
+
+.right-container {
+  display: block;
+  background-position: right;
+}
     .main-page {
       display: flex;
       flex-direction: row;
@@ -25,19 +36,25 @@
       padding-bottom: 300.5px;
     }
     .main-page-text {
-      padding-left: 20px;
+      padding-left: 27px;
       padding-right: 0px;
-      margin-top: -50px;
-      }
+      margin-top: 142px;
+    }
+    .buttons {
+      padding-top: 40px;
+    }
   .main-page-first-button {
     background-color: var(--orange-main-color);
     color: var(--text-color-main);
     text-decoration: none;
     padding: 15px 25px 15px 25px;
     font-family: 'Rubik', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 700;
     border-radius: 2px;
+    margin-right: 13px;
+    border-radius: 0px;
+    border-color: var(--orange-main-color) ;
   }
   .main-page-second-button {
     background-color: transparent;
@@ -45,13 +62,18 @@
     text-decoration: none;
     padding: 15px 25px 15px 25px;
     font-family: 'Rubik', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 700;
     border-radius: 2px;
-    border-color: #ffffff;
+    border-color: #ffffff;-
+    border-width:thick;
+  }
+  .main-page-second-button:hover {
+    color:#ffffff
+    
   }
   .main-text-icon {
-    padding-left: 18px;
+    padding-left: 0px;
   }
   .boutique-wines-text {
     font-family: 'Prata', serif;
@@ -59,14 +81,22 @@
     padding: 20px;
     font-size: 60px;
     font-weight: lighter;
+    padding-left:0px;
   }
   .taste-our-text {
     color: var(--orange-main-color);
     font-family: 'Great Vibes';
-    padding-left: 20px;
+    font-size: 14px;
   }
   .grown-with-love-text {
     font-family: 'Rubik', sans-serif;
     color: var(--text-color-main);
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  @media (max-width: 740px) {
+  .left-container {
+    display: none;
   }
   }
