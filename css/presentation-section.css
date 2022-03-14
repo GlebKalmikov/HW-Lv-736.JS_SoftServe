@@ -1,41 +1,45 @@
-
 .presentation-section {
   display: flex;
   justify-content: space-around;
   max-width: 1170px;
   margin-top:55px;
 }
+
 .head-block-text {
     font-family: 'Prata', serif;
     color: var(--text-color-main);
     font-weight: normal;
-  }
-  .presentation-block-paragraph {
+ }
+
+ .presentation-block-paragraph {
     font-family: 'Rubik', sans-serif;
     color: var(--text-color-paragraph);
   }
+
   .special-events-section {
     background-color: var(--background-color);
     color: var(--text-color-main);
     font-family: 'Rubik', sans-serif;
-    background-image: url(/img/special-events-block-image.png);
+    background-image: url(../img/special-events-block-image.png);
     background-size: cover;
     background-position: 50% 50%;
     min-height: 300px;
     padding: 70px;
     margin: 55px 25px 0 25px;
 }
+
 .organic-wines-section {
   background-color: var(--background-color);
   color: var(--text-color-main);
   font-family: 'Rubik', sans-serif;
-  background-image: url(/img/organic-wines-block-image.png);
+  background-image: url(../img/organic-wines-block-image.png);
   background-size: cover;
   background-position: 50% 50%;
   min-height: 300px;
   padding: 70px;
   margin: 55px 25px 0 25px;
 }
+
 .grape-varieties-section {
     background-color: var(--background-color);
     color: var(--text-color-main);
@@ -47,28 +51,33 @@
     padding: 70px;
     margin: 55px 25px 150px 25px;
 }
-  .special-events-section > h2,
-   .special-events-section > p, 
-   .special-events-section > a, 
-   .organic-wines-section > h2,
-    .organic-wines-section > p, 
-    .organic-wines-section > a,
-     .grape-varieties-section > h2,
-      .grape-varieties-section > p,
-      .grape-varieties-section > a {
+
+.special-events-section > h2,
+.special-events-section > p, 
+.special-events-section > a, 
+.organic-wines-section > h2,
+.organic-wines-section > p, 
+.organic-wines-section > a,
+.grape-varieties-section > h2,
+.grape-varieties-section > p,
+.grape-varieties-section > a {
     margin: 20px 0;
 }
+
 .presentation-link-style {
   color: var(--text-color-main);
   text-decoration: none;
   font-weight: bold;
 }
+
 .presentation-link-style:hover {
   text-decoration: underline;
 }
+
 .presentation-content-text {
   
 }
+
 @media (max-width: 740px) {
   .presentation-section {
     flex-direction: column;
