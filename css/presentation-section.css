@@ -2,30 +2,36 @@
   display: flex;
   justify-content: space-around;
   max-width: 1170px;
-  margin-top:55px;
+  margin-top: 55px;
 }
 
 .head-block-text {
-    font-family: 'Prata', serif;
-    color: var(--text-color-main);
-    font-weight: normal;
- }
+  font-family: 'Prata', serif;
+  color: var(--text-color-main);
+  font-weight: normal;
+  margin-bottom: 15px;
+}
 
- .presentation-block-paragraph {
-    font-family: 'Rubik', sans-serif;
-    color: var(--text-color-paragraph);
-  }
+.presentation-block-paragraph {
+  font-family: 'Rubik', sans-serif;
+  color: var(--text-color-paragraph);
+  margin-bottom: 29px;
+  margin-top: 15px;
+  line-height: 25px;
+  padding-right: 13px;
+}
 
-  .special-events-section {
-    background-color: var(--background-color);
-    color: var(--text-color-main);
-    font-family: 'Rubik', sans-serif;
-    background-image: url(../img/special-events-block-image.png);
-    background-size: cover;
-    background-position: 50% 50%;
-    min-height: 300px;
-    padding: 70px;
-    margin: 55px 25px 0 25px;
+.special-events-section {
+  background-color: var(--background-color);
+  color: var(--text-color-main);
+  font-family: 'Rubik', sans-serif;
+  background-image: url(../img/special-events-block-image.png);
+  background-size: cover;
+  display: block;
+  height: 455px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 30px;
 }
 
 .organic-wines-section {
@@ -34,34 +40,37 @@
   font-family: 'Rubik', sans-serif;
   background-image: url(../img/organic-wines-block-image.png);
   background-size: cover;
-  background-position: 50% 50%;
-  min-height: 300px;
-  padding: 70px;
-  margin: 55px 25px 0 25px;
+  display: block;
+  height: 455px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 45px;
 }
 
 .grape-varieties-section {
-    background-color: var(--background-color);
-    color: var(--text-color-main);
-    font-family: 'Rubik', sans-serif;
-    background-image: url(/img/grape-varieties-block-image.png);
-    background-size: cover;
-    background-position: 50% 50%;
-    min-height: 300px;
-    padding: 70px;
-    margin: 55px 25px 150px 25px;
+  background-color: var(--background-color);
+  color: var(--text-color-main);
+  font-family: 'Rubik', sans-serif;
+  background-image: url(/img/grape-varieties-block-image.png);
+  background-size: cover;
+  display: block;
+  height: 455px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 45px;
+  margin-bottom: 135px;
 }
 
 .special-events-section > h2,
-.special-events-section > p, 
-.special-events-section > a, 
+.special-events-section > p,
+.special-events-section > a,
 .organic-wines-section > h2,
-.organic-wines-section > p, 
+.organic-wines-section > p,
 .organic-wines-section > a,
 .grape-varieties-section > h2,
 .grape-varieties-section > p,
 .grape-varieties-section > a {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .presentation-link-style {
@@ -75,7 +84,7 @@
 }
 
 .presentation-content-text {
-  
+  padding: 177px 1px 1px 29px;
 }
 
 @media (max-width: 740px) {
@@ -83,5 +92,3 @@
     flex-direction: column;
   }
 }
-
-  

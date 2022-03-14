@@ -3,7 +3,7 @@
   background-image: url(../img/boutique-wines-image.jpg);
   background-size: cover;
   background-position: right;
-  height: 800px ;
+  height: 800px;
 }
 
 @media (min-width: 600px) {
@@ -26,10 +26,6 @@
   color: var(--orange-main-color);
 }
 
-.main-page-text {
-  display: flex;
-}
-
 .left-container {
   display: block;
 }
@@ -38,17 +34,12 @@
   display: block;
   background-position: right;
 }
-.main-page {
-  display: flex;
-  flex-direction: row;
-  padding-top: 215.5px;
-  padding-bottom: 300.5px;
-}
 
 .main-page-text {
-  padding-left: 27px;
+  padding-left: 22px;
   padding-right: 0px;
-  margin-top: 142px;
+  margin-top: 154px;
+  display: flex;
 }
 
 .buttons {
@@ -59,44 +50,47 @@
   background-color: var(--orange-main-color);
   color: var(--text-color-main);
   text-decoration: none;
-  padding: 15px 25px 15px 25px;
+  padding: 18px 35px 18px 27px;
   font-family: 'Rubik', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
-  border-radius: 2px;
-  margin-right: 13px;
-  border-radius: 0px;
-  border-color: var(--orange-main-color) ;
+  border-radius: 3px;
+  margin-right: 15px;
 }
-
+.main-page-first-button:hover {
+  background-color: var(--button-hover-color);
+}
 .main-page-second-button {
-  background-color: transparent;
+  background-color: none;
   color: var(--text-color-main);
   text-decoration: none;
   padding: 15px 25px 15px 25px;
   font-family: 'Rubik', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
+  border: solid 3px white;
   border-radius: 2px;
-  border-color: #ffffff;
-  border-width:thick;
+  width: 70px;
 }
 
 .main-page-second-button:hover {
-  color:#ffffff 
+  background-color: white;
+  color: rgb(0, 0, 0);
 }
 
 .main-text-icon {
   padding-left: 0px;
+  padding-top: 19px;
 }
 
 .boutique-wines-text {
   font-family: 'Prata', serif;
   color: var(--text-color-main);
   padding: 20px;
-  font-size: 60px;
+  font-size: 59px;
   font-weight: lighter;
-  padding-left:0px;
+  padding-left: 0px;
+  line-height: 69px;
 }
 
 .taste-our-text {
@@ -111,6 +105,7 @@
   padding-top: 20px;
   line-height: 30px;
   font-size: 18px;
+  padding-bottom: 8px;
 }
 
 @media (max-width: 740px) {
