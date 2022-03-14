@@ -1,6 +1,6 @@
 .header {
   background-color: var(--background-color);
-  background-image: url(/img/boutique-wines-image.jpg);
+  background-image: url(../img/boutique-wines-image.jpg);
   background-size: cover;
   background-position: right;
   height: 800px ;
