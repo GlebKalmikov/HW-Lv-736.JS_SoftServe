@@ -4,6 +4,9 @@
 
 .discount-section {
     background-image: url(../img/discount-background.webp);
+    background-size: cover;
+    background-position: 50%;
+    background-blend-mode: soft-light;
     color: var(--text-color-main);
     font-family: 'Rubik', sans-serif;
     display: flex;
