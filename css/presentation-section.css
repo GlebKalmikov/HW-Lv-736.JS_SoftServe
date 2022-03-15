@@ -1,12 +1,8 @@
 .presentation-section {
-  /*display: flex;
-  flex-direction: column;
-  padding: 70px 0px 90px;
-  width: auto;*/
-
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 70px 0px 90px;
 }
 
 .presentation-section .presentation-grid {
