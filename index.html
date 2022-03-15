@@ -11,12 +11,31 @@
 
   <body>
     <!-- Header -->
-    <header class="header">    
+    <header class="header">
+      <div class="container">
+        <div class="header_body">
+          <a href="#" class="header_logo">
+            Логотип
+          </a>
+          <div class="header_burger">
+            <span></span>
+          </div>
+          <div class="header_menu">
+            <ul class="header_list">
+              <li><a href="" class="header_link">Главная</a></li>
+              <li><a href="" class="header_link">Новости</a></li>
+              <li><a href="" class="header_link">О проекте</a></li>
+              <li><a href="" class="header_link">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+              </div>    
       <!-- Main-page-text -->
       <div class="main-page-text">
         <!-- boutique-wines-text -->
         <div class="left-container"></div>
         <div class="right-container">
+          <div class="right-container-text">
           <div class="taste-our-text">Taste our</div>
           <h1 class="boutique-wines-text">Boutique Wines</h1>
           <img
@@ -27,6 +46,7 @@
           <p class="grown-with-love-text">
             Grown with love and respect for the California lands.
           </p>
+        </div>
           <div class="buttons">
           <div class="first-button">
           <a href="#" class="main-page-first-button" name="button">Shop now</a>
@@ -43,41 +63,47 @@
     <!-- Presentation-page -->
     <div class="presentation-section">
       <!-- Special-events-block -->
-      <div class="special-events-section">
-        <!-- <img src="img/special-events-block-image.png" alt="special-events-block-image" /> -->
-        <div class="presentation-content-text">
-          <h2 class="head-block-text">For Your Special Events</h2>
-          <div class="orange-line-short"></div>
-          <p class="presentation-block-paragraph">
-            We have a great collection of exclusive reserve wines.
-          </p>
-          <a class="presentation-link-style" href="#best-deals">Learn more &#8594</a>
+      <div class="presentation-grid">
+        <div class="special-events-section">
+          <!-- <img src="img/special-events-block-image.png" alt="special-events-block-image" /> -->
+          <div class="presentation-content-text">
+            <h2 class="head-block-text">For Your Special Events</h2>
+            <div class="orange-line-short"></div>
+            <p class="presentation-block-paragraph">
+              We have a great collection of exclusive reserve wines.
+            </p>
+            <a class="presentation-link-style" href="#best-deals">Learn more &#8594</a>
+          </div>
         </div>
       </div>
       <!-- Organic-wines-block -->
-      <div class="organic-wines-section">
-        <!-- <img src="img/organic-wines-block-image.png" alt="organic-wines-block-image" /> -->
-        <div class="presentation-content-text">
-          <h2 class="head-block-text">100% Organic Wines</h2>
+      <div class="presentation-grid">
+        <div class="organic-wines-section">
+          <!-- <img src="img/organic-wines-block-image.png" alt="organic-wines-block-image" /> -->
+          <div class="presentation-content-text">
+            <h2 class="head-block-text">100% Organic Wines</h2>
+            <div class="orange-line-short"></div>
+            <p class="presentation-block-paragraph">
+              Only natural wine without all kinds of additives or flavors.
+            </p>
+            <a class="presentation-link-style" href="#best-deals">Learn more &#8594</a>
+          </div>
+        </div>
+      </div>
+      <!-- Grape-varieties-block -->
+      <div class="presentation-grid">
+        <div class="grape-varieties-section">
+          <!-- <img src="img/grape-varieties-block-image.png" alt="grape-varieties-block-image" /> -->
+          <div class="presentation-content-text">
+          <h2 class="head-block-text">Selected Grape Varieties</h2>
           <div class="orange-line-short"></div>
           <p class="presentation-block-paragraph">
-            Only natural wine without all kinds of additives or flavors.
+            We produce and sell the finest wines made of the best grape varieties.
           </p>
           <a class="presentation-link-style" href="#best-deals">Learn more &#8594</a>
         </div>
         </div>
-    <!-- Grape-varieties-block -->
-    <div class="grape-varieties-section">
-      <!-- <img src="img/grape-varieties-block-image.png" alt="grape-varieties-block-image" /> -->
-      <div class="presentation-content-text">
-      <h2 class="head-block-text">Selected Grape Varieties</h2>
-      <div class="orange-line-short"></div>
-      <p class="presentation-block-paragraph">
-        We produce and sell the finest wines made of the best grape varieties.
-      </p>
-      <a class="presentation-link-style" href="#best-deals">Learn more &#8594</a>
-    </div>
-    </div>
+      </div>
     </div>
   <!--Glib blok start-->
   <section>
@@ -348,6 +374,7 @@
     <p class="paragraph-end">All rights Reserved</p>
   </div>
   <!-- Join blok end -->
+  <script src="/js/navmenu.js""></script>
 </body>
 
 </html>

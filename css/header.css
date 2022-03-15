@@ -43,14 +43,11 @@
 .right-container {
   display: block;
 }
-@media (max-width: 767px) {
-  .right-container {
-    padding-right: 45px;
-  }
-}
 @media (min-width: 768px) {
   .right-container {
-    padding-right: 200px;
+    padding-right: 62px;
+    padding-top: 70px;
+    
   }
 }
 .main-page-text {
@@ -71,7 +68,7 @@
     padding-right: 0px;
     margin-top: 154px;
     display: flex;
-    justify-content: right;
+    justify-content: left;
   }
 }
 @media (min-width: 768px) {
