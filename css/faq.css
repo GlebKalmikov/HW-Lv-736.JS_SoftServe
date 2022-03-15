@@ -33,6 +33,20 @@
     text-align: right;
  }
 
+ /* grid */
+
+ #grid {
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px;
+  }
+
+  #grid {
+      display: grid;
+      height: 300px;
+  }
+
 .services {
     color: white;
     font-size: 25px;
