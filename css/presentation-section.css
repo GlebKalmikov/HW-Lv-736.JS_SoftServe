@@ -1,10 +1,18 @@
 .presentation-section {
   display: flex;
-  justify-content: space-around;
-  max-width: 1170px;
-  margin-top: 55px;
+  flex-direction: column;
+  padding: 70px 0px 90px;
+  width: auto;
 }
-
+@media (min-width: 994px) {
+  .presentation-section {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 1px;
+    justify-content: center;
+    padding: 70px 164px 90px;
+  }
+}
 .head-block-text {
   font-family: 'Prata', serif;
   color: var(--text-color-main);
@@ -20,7 +28,6 @@
   line-height: 25px;
   padding-right: 13px;
 }
-
 .special-events-section {
   background-color: var(--background-color);
   color: var(--text-color-main);
@@ -31,7 +38,8 @@
   height: 455px;
   margin-left: 25px;
   margin-right: 25px;
-  margin-top: 30px;
+  margin-top: 45px;
+  background-position: left 64% bottom 45%;
 }
 
 .organic-wines-section {
@@ -45,6 +53,7 @@
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 45px;
+  background-position: left 64% bottom 45%;
 }
 
 .grape-varieties-section {
@@ -58,7 +67,6 @@
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 45px;
-  margin-bottom: 135px;
 }
 
 .special-events-section > h2,
@@ -85,10 +93,4 @@
 
 .presentation-content-text {
   padding: 177px 1px 1px 29px;
-}
-
-@media (max-width: 740px) {
-  .presentation-section {
-    flex-direction: column;
-  }
 }

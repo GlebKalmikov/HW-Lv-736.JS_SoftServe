@@ -2,10 +2,20 @@
   background-color: var(--background-color);
   background-image: url(../img/boutique-wines-image.jpg);
   background-size: cover;
-  background-position: right;
+  background-position: left 64% bottom 45%;
   height: 800px;
+  background-attachment: fixed;
 }
-
+@media (max-width: 767px) {
+  .header {
+    height: 900px;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    height: 900px;
+  }
+}
 @media (min-width: 600px) {
   .header__nav .container {
     display: flex;
@@ -32,28 +42,72 @@
 
 .right-container {
   display: block;
-  background-position: right;
 }
-
+@media (max-width: 767px) {
+  .right-container {
+    padding-right: 45px;
+  }
+}
+@media (min-width: 768px) {
+  .right-container {
+    padding-right: 200px;
+  }
+}
 .main-page-text {
   padding-left: 22px;
   padding-right: 0px;
   margin-top: 154px;
   display: flex;
 }
-
+@media (min-width: 1280px) {
+  .main-page-text {
+    display: flex;
+    flex-direction: right;
+  }
+}
+@media (max-width: 767px) {
+  .main-page-text {
+    padding-left: 22px;
+    padding-right: 0px;
+    margin-top: 154px;
+    display: flex;
+    justify-content: right;
+  }
+}
+@media (min-width: 768px) {
+  .main-page-text {
+    padding-left: 22px;
+    padding-right: 0px;
+    margin-top: 154px;
+    display: flex;
+    justify-content: right;
+  }
+}
 .buttons {
   padding-top: 40px;
+  display: flex;
 }
-
+@media (max-width: 381px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.first-button {
+  display: flex;
+  padding: 13px 1px 0px 1px;
+}
+.second-button {
+  display: flex;
+}
 .main-page-first-button {
   background-color: var(--orange-main-color);
   color: var(--text-color-main);
   text-decoration: none;
-  padding: 18px 35px 18px 27px;
+  padding: 18px 25px 15px 25px;
   font-family: 'Rubik', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 17px;
+  font-weight: bolder;
   border-radius: 3px;
   margin-right: 15px;
 }
@@ -66,16 +120,50 @@
   text-decoration: none;
   padding: 15px 25px 15px 25px;
   font-family: 'Rubik', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 17px;
+  font-weight: bolder;
   border: solid 3px white;
-  border-radius: 2px;
-  width: 70px;
+  border-radius: 3px;
+  margin-top: 14px;
 }
 
 .main-page-second-button:hover {
   background-color: white;
   color: rgb(0, 0, 0);
+}
+
+@media (max-width: 381px) {
+  .main-page-first-button {
+    background-color: var(--orange-main-color);
+    color: var(--text-color-main);
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 3px;
+    margin-right: 15px;
+  }
+  .main-page-first-button:hover {
+    background-color: var(--button-hover-color);
+  }
+  .main-page-second-button {
+    background-color: none;
+    color: var(--text-color-main);
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    border: solid 3px white;
+    border-radius: 3px;
+    margin-top: 14px;
+  }
+
+  .main-page-second-button:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+  }
 }
 
 .main-text-icon {
@@ -92,13 +180,35 @@
   padding-left: 0px;
   line-height: 69px;
 }
+@media (max-width: 1280px) {
+  .boutique-wines-text {
+    max-width: 1px;
+    font-size: 60px;
+    line-height: 115%;
+  }
+}
+@media (min-width: 768px) {
+  .boutique-wines-text {
+    font-size: 80px;
+    line-height: 115%;
+  }
+}
 
 .taste-our-text {
   color: var(--orange-main-color);
   font-family: 'Great Vibes';
   font-size: 14px;
 }
-
+@media (max-width: 767px) {
+  .taste-our-text {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .taste-our-text {
+    font-size: 30px;
+  }
+}
 .grown-with-love-text {
   font-family: 'Rubik', sans-serif;
   color: var(--text-color-main);
@@ -107,7 +217,16 @@
   font-size: 18px;
   padding-bottom: 8px;
 }
-
+@media (min-width: 768px) {
+  .lands-love-text {
+    max-width: 1px;
+  }
+}
+@media (max-width: 767px) {
+  .lands-love-text {
+    max-width: 1px;
+  }
+}
 @media (max-width: 740px) {
   .left-container {
     display: none;
