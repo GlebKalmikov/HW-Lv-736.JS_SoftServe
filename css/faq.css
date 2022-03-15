@@ -1,3 +1,4 @@
+/* FAQ section */
 .faq__name {
     color: white;
     font-size: 40px;  
@@ -14,6 +15,10 @@
      color: white;
      font-size: 30px;
      margin: 20px 0px 25px 0px;
+ }
+
+ .wine-photo {
+    text-align: right;
  }
 
 .services {
