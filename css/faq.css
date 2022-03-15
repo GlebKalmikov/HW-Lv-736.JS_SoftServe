@@ -3,6 +3,15 @@
     color: white;
     font-size: 40px;  
  }
+ 
+.conteiner {
+    margin: 0 auto;
+    padding: 4rem;
+    width: 48rem;
+    color: var(--text-color-paragraph);
+    font-size: 16px;
+}
+
 
  .orange-cursive-join {
     font-family: 'Great Vibes', cursive;
@@ -10,12 +19,7 @@
     text-align: left;
     font-size: 30px;
  }
- 
- .faq__question {
-     color: white;
-     font-size: 30px;
-     margin: 20px 0px 25px 0px;
- }
+
 
  .wine-photo {
     text-align: right;
