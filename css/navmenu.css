@@ -24,8 +24,6 @@
   align-items: center;
 }
 .header_logo {
-  background-image: url(/img/caliwines-icon.svg);
-  flex: 0 0 100px;
   /*border-radius: 50%;*/
   overflow: hidden;
   position: relative;
@@ -67,15 +65,20 @@
     height: 50px;
   }
   .header_logo {
-    flex: 0 0 80px;
+    width: 172px;
+    padding-left: 20px;
+    padding-top: 30px;
+
   }
   .header_burger {
     display: block;
     position: relative;
-    width: 30px;
-    height: 20px;
+    width: 22px;
+    height: 18px;
     position: relative;
     z-index: 3;
+    margin-right: 22px;
+    margin-top: 37px;
   }
   .header_burger span {
     position: absolute;
