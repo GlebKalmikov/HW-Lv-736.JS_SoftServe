@@ -46,6 +46,10 @@
       display: grid;
       height: 300px;
   }
+
+  .conteiner-join {
+
+  }
   
   #grid-join {
     display: grid;
