@@ -46,7 +46,14 @@
       display: grid;
       height: 300px;
   }
-
+  
+  #grid-join {
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px;
+  }
+ 
 .services {
     color: white;
     font-size: 25px;
