@@ -8,9 +8,6 @@
     display: flex;
  }
 
- .system-conteiner {
-    display: 
- }
 
 .conteiner {
     margin: 0 auto;
@@ -47,15 +44,31 @@
       height: 300px;
   }
 
-  .conteiner-join {
-
-  }
   
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 150px;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--text-color-main);
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 2px;
+    background-color: var(--button-hover-color);
+}
+ 
   #grid-join {
     display: grid;
     height: 300px;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 100px;
+  }
+
+  .fast-services {
+    padding-right: 10%;
+    margin: 1em;
   }
  
 .services {
@@ -67,6 +80,10 @@
     color: var(--text-color-paragraph);
     font-size: 16px;
     line-height: 30px;
+}
+
+.join-conteiner {
+    margin: 40px 100px 30px 40px;
 }
 
 .join {
@@ -81,6 +98,7 @@
 
 .indent {
     margin: 20px 0px 25px 0px;
+    text-align: right;
 }
 
 .paragraph-end {
