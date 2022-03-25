@@ -1,0 +1,17 @@
+.age-checker {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    width: 100%;
+}
+
+.age-checher-buttons {
+    display: flex;
+}
+
+@media (min-width: 500px) {
+    .age-checker {
+        min-width: 600px;
+        width: 80%;
+    }
+}
