@@ -7,23 +7,23 @@ const photo = [
     },
 {
     id: 2,
-    image: 'img/stoper.png'
+    image: 'img/sommelier.png'
 },
 {
     id: 3,
-    image: 'img/stoper.png'
+    image: 'img/glass.png'
 },
 {
     id: 4,
-    image: 'img/stoper.png'
+    image: 'img/alcohol.png'
 },
 {
     id: 5,
-    image: 'img/stoper.png'
+    image: 'img/grape.png'
 },
 {
     id: 6,
-    image: 'img/stoper.png'
+    image: 'img/gobet.png'
 }
 ];
 
