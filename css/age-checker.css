@@ -1,5 +1,5 @@
 .age-checker-holder { 
-    position: absolute;
+    position: fixed;
     top: 150px;
 }
 
