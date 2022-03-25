@@ -1,0 +1,24 @@
+.underage-alert {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    padding: 70px 30px;
+}
+
+.underage-alert h1 {
+    font-size: 58px;
+    color: var(--text-color-main);
+    margin-bottom: 10px;
+    font-family: 'Prata', serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.underage-alert p {
+    color: var(--text-color-paragraph);
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
