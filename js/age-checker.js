@@ -1,5 +1,5 @@
 (function () {
-  const confirmWindow = document.querySelector(".age-checker");
+  const confirmWindow = document.querySelector(".age-checker-holder");
   const overageButton = document.querySelector(".overage-button");
   const underageButton = document.querySelector(".underage-button");
 
