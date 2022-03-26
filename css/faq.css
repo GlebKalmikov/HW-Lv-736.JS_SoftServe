@@ -2,12 +2,11 @@
 .faq__name {
     color: white;
     font-size: 40px;  
- }
+}
  
- .faq-conteiner {
+.faq-conteiner {
     display: flex;
- }
-
+}
 
 .conteiner {
     margin: 0 auto;
@@ -18,34 +17,32 @@
 }
 
 
- .orange-cursive-join {
+.orange-cursive-join {
     font-family: 'Great Vibes', cursive;
     color: var(--orange-main-color);
     text-align: left;
     font-size: 30px;
- }
+}
 
-
- .wine-photo {
+.wine-photo {
     text-align: right;
- }
+}
 
  /* grid */
 
- #grid {
+#grid {
     display: grid;
     height: 300px;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 100px;
-  }
+}
 
-  #grid {
-      display: grid;
-      height: 300px;
-  }
-
+#grid {
+    display: grid;
+    height: 300px;
+}
   
-  .styled {
+.styled {
     border: 0;
     line-height: 2.5;
     padding: 0 150px;
@@ -56,20 +53,24 @@
     font-size: 15px;
     font-weight: 700;
     border-radius: 2px;
+    background-color: var(--orange-main-color);
+}
+
+.styled:hover {
     background-color: var(--button-hover-color);
 }
  
-  #grid-join {
+#grid-join {
     display: grid;
     height: 300px;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 100px;
-  }
+}
 
-  .fast-services {
+.fast-services {
     padding-right: 10%;
     margin: 1em;
-  }
+}
  
 .services {
     color: white;
@@ -88,7 +89,7 @@
 
 .join {
     font-size: 30px;
-     color: white;
+    color: white;
 }
 
 .join-paragraph {
