@@ -27,8 +27,12 @@
 
 .cart__counter {
     position: fixed;
-    right: 28px;
-    top: 78px;
+    right: 27px;
+    top: 81px;
     width: 25px;
     height: 25px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    text-align: center;
 }
