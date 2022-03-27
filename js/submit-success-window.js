@@ -15,6 +15,7 @@
     const crossButton = document.querySelector(".cross-exit");
     const okButton = document.querySelector(".orange-button-ok");
      
-    crossButton.addEventListener("click", () => submitSuccessWindow.innerHTML = "" );
-    okButton.addEventListener("click", () => submitSuccessWindow.innerHTML = "" );
+    submitSuccessWindow.addEventListener("click", () => submitSuccessWindow.innerHTML = "" );
+    // crossButton.addEventListener("click", () => submitSuccessWindow.innerHTML = "" );
+    // okButton.addEventListener("click", () => submitSuccessWindow.innerHTML = "" );
   })();
