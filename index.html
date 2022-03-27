@@ -297,11 +297,11 @@
      <div class="panel">
        <p>We are located in the Napa Valley, America's most famous wine region.</p>
      </div>
+    </div>
      
-     
-
      <div class="wine-photo"><img src="img/wine.jpg" width="500" alt="wine"></div>
      </div>
+
      <!--Grid blok-->
      <div id="grid">
      <div class="fast-services">
@@ -381,34 +381,99 @@
      <div>
        <h3 class="services">Instagram</h3>
        <div class="orange-line-short"></div>
-     <div class="slideshow-conteiner">
-       <div class="mySlides fade">
-       <img src="img/stoper.png" width="80" alt="stoper">
-       </div>
-       <div class="mySlides fade">
-       <img src="img/sommelier.png" width="80" alt="sommelier">
-       </div>
-       <div class="mySlides fade">
-       <img src="img/glass.png" width="80" alt="glass">
-       </div>
-       <div class="mySlides fade">
-       <img src="img/alcohol.png" width="80" alt="alcohol">
-       </div>
-       <div class="mySlides fade">
-       <img src="img/grape.png" width="80" alt="grape">
-       </div>
-       <div class="mySlides fade">
-       <img src="img/gobet.png" width="80" alt="gobet">
-       </div>
-     </div>
-     </div>
+<!-- carousel -->
+       <div class="row">
+        <div class="column">
+          <img src="img/stoper.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/sommelier.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/glass.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/alcohol.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/grape.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="img/gobet.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+      </div>
+      
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">×</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="img/stoper.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="img/sommelier.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="img/glass.png" style="width:100%">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="img/alcohol.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="img/grape.png" style="width:100%">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="img/gobet.png" style="width:100%">
+          </div>
+          
+          
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+      
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+          <div class="column">
+            <img class="demo cursor" src="img/stoper.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/sommelier.png" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/glass.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/alcohol.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/grape.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/gobet.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+          </div>
+        </div>
+      </div>
+      <!-- carousel -->
+      
+    
      <div>
        <p class="paragraph-end">© Created by</p>
        <p class="paragraph-end">All rights Reserved</p>
      </div>
      <!-- Join blok end -->
     <script src="js/navmenu.js"></script>
-    <script src="js/carousel-photo.js"></script>
     <script src="js/age-checker.js"></script>
     <script src="js/submit-success-window.js"></script>
     <script src="js/section.js"></script>

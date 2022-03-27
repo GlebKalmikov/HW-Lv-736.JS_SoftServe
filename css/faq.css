@@ -3,6 +3,12 @@
     color: white;
     font-size: 40px;  
 }
+
+.faq-conteiner {
+display: flex;
+
+}
+
  /* accordion */
 .accordion {
     background-color: #261e1c;
@@ -58,9 +64,6 @@
     font-size: 30px;
 }
 
-.wine-photo {
-    text-align: right;
-}
 
  /* grid */
 
