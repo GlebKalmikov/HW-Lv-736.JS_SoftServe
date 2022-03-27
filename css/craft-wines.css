@@ -39,6 +39,10 @@
     color: var(--text-color-main);
 }
 
+.craft-wines__wine-card a {
+    text-decoration: none;
+}
+
 .craft-wines__price {
     font-weight: 700;
 }
