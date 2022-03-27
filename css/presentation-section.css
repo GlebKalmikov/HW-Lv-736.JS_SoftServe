@@ -18,7 +18,6 @@
 }
 
 @media (max-width: 760px) {
-
   .presentation-section .presentation-grid {
     flex-basis: 90%;
     min-width: 90%;
