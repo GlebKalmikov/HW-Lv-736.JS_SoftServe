@@ -1,0 +1,34 @@
+.cart__white-circle {
+    position: fixed;
+    right: 30px;
+    top: 80px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart__white-circle img {
+    width: 25px;
+}
+
+.cart__orange-circle {
+    position: fixed;
+    right: 28px;
+    top: 78px;
+    background-color: var(--orange-main-color);
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+
+.cart__counter {
+    position: fixed;
+    right: 28px;
+    top: 78px;
+    width: 25px;
+    height: 25px;
+}
