@@ -10,12 +10,17 @@
             <h6>We will contact you shortly.</h6>
             <a class="orange-button-ok">Ok</a>
         </div>`
-     );
+        const crossButton = document.querySelector(".cross-exit");
+        crossButton.addEventListener("click", () => submitSuccessWindow.innerHTML = "" );
+    );
     
-    const crossButton = document.querySelector(".cross-exit");
-    const okButton = document.querySelector(".orange-button-ok");
+    
+    
+    
+    // submitSuccessWindow.addEventListener("click", () => submitSuccessWindow.innerHTML = "" );
+    // const crossButton = document.querySelector(".cross-exit");
+    // const okButton = document.querySelector(".orange-button-ok");
      
-    submitSuccessWindow.addEventListener("click", () => submitSuccessWindow.innerHTML = "" );
     // crossButton.addEventListener("click", () => submitSuccessWindow.innerHTML = "" );
     // okButton.addEventListener("click", () => submitSuccessWindow.innerHTML = "" );
   })();
