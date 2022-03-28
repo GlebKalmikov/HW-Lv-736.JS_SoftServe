@@ -79,6 +79,13 @@
     flex-direction: column;
 }
 
+.cart-window__place-an-order input {
+    background-color: rgb(207, 207, 207);
+    border: none;
+    color: grey;
+    border-radius: 5px;
+}
+
 .order-button {
     display: block;
     margin: auto;
