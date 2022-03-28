@@ -16,7 +16,7 @@
 .product-page__gallery-carousel img {
     max-width: 540px;
     width: 100%;
-    flex-shrink: 0.5;
+    /* flex-shrink: 0.5; */
 }
 
 .arrow-button {
@@ -24,6 +24,14 @@
     height: 40px;
     border-radius: 5px;
     background-color: var(--text-color-paragraph);
+    cursor: pointer;
+}
+
+.arrow-button img {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 8px auto 0 auto;
 }
 
 .product-page__gallery-miniature img {
@@ -104,6 +112,11 @@
     flex-direction: column;
 }
 
+.counter-arrow-up,
+.counter-arrow-down {
+    cursor: pointer;
+}
+
 .quantity-counter img {
     width: 13px;
     z-index: 3;
@@ -155,7 +168,7 @@
 
     .product-page__description {
         max-width: 50%;
-        margin-left: 30px;
+        margin-left: 50px;
     }
 }
 
