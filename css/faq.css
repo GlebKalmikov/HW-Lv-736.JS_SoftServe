@@ -14,7 +14,7 @@
         color: var(--text-color-paragraph);
         font-size: 16px;
     }
-    /* height: 300px; */
+
  /* accordion */
 .accordion {
     background-color: #261e1c;
@@ -53,23 +53,12 @@
     transition: max-height 0.2s ease-out;
 }
 
-/* accordion */
-
-.orange-cursive-join {
-    font-family: 'Great Vibes', cursive;
-    color: var(--orange-main-color);
-    text-align: left;
-    font-size: 30px;
-}
-
-
  /* grid */
  @media (min-width: 720px) {
  .grid-services {
      display: grid;
      height: 300px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    
+    grid-template-columns: 1fr 1fr 1fr 1fr;   
 }
  }
 
@@ -89,28 +78,56 @@
     line-height: 30px;
 }
 
+.orange-cursive-join {
+    font-family: 'Great Vibes', cursive;
+    color: var(--orange-main-color);
+    text-align: left;
+    font-size: 30px;
+}
+
  /* join */
- 
- #grid-join {
-    display: grid;
-    height: 300px;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 100px;
+
+@media (min-width: 720px) {
+    .join-blok {
+        display: flex;
+    }
+}
+
+.orange-cursive-join {
+    color: #c8693a;
+    margin: 40px 100px 30px 40px;
+    
 }
 
 .join-conteiner {
-    margin: 40px 100px 30px 40px;
+    margin: -50px 100px 30px 50px;
+
 }
 
 .join {
     font-size: 30px;
     color: white;
+    height: 70px;
 }
 
 .join-paragraph {
     color: white;
     font-size: 20px;
 }
+
+/* forma */
+
+input[type=text] {
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 15px;
+    font-family: 'Rubik', sans-serif;
+    background-color: #332928;
+    opacity: 0.9;
+}
+
+/* button */
 
 .styled {
     border: 0;
@@ -129,17 +146,18 @@
 .styled:hover {
     background-color: var(--button-hover-color);
 }
- 
 
-input[type=text] {
-    line-height: 1.5;
-    padding: 0 250px;
-    font-size: 1rem;
-    font-weight: 700;
-    padding: 15px;
-    font-family: 'Rubik', sans-serif;
-    background-color: #332928;
-    opacity: 0.9;
+@media (min-width: 720px) {
+    .join-contact {
+     display: grid; 
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.information {
+    padding-right: 10%;
+    margin: 40px 100px 30px 40px;
+    height: 180px;
 }
 
 .paragraph-end {
