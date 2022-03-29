@@ -9,13 +9,12 @@
         font-size: 40px;  
     }
     .conteiner {
-        margin: 0 auto;
+        margin: auto;
         padding: 4rem;
-        width: 48rem;
         color: var(--text-color-paragraph);
         font-size: 16px;
     }
-    
+    /* height: 300px; */
  /* accordion */
 .accordion {
     background-color: #261e1c;
@@ -65,26 +64,14 @@
 
 
  /* grid */
-
-#grid {
-    display: grid;
-    height: 300px;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 100px;
+ @media (min-width: 720px) {
+ .grid-services {
+     display: grid;
+     height: 300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
 }
-
-#grid {
-    display: grid;
-    height: 300px;
-}
-  
- 
-#grid-join {
-    display: grid;
-    height: 300px;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 100px;
-}
+ }
 
 .fast-services {
     padding-right: 10%;
@@ -100,6 +87,15 @@
     color: var(--text-color-paragraph);
     font-size: 16px;
     line-height: 30px;
+}
+
+ /* join */
+ 
+ #grid-join {
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px;
 }
 
 .join-conteiner {
