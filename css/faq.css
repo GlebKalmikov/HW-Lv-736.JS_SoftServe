@@ -1,14 +1,21 @@
-/* FAQ section */
-.faq__name {
-    color: white;
-    font-size: 40px;  
+
+@media (min-width: 720px){
+    .faq-conteiner {
+        display: flex;
+        }
 }
-
-.faq-conteiner {
-display: flex;
-
-}
-
+    .faq__name {
+        color: white;
+        font-size: 40px;  
+    }
+    .conteiner {
+        margin: 0 auto;
+        padding: 4rem;
+        width: 48rem;
+        color: var(--text-color-paragraph);
+        font-size: 16px;
+    }
+    
  /* accordion */
 .accordion {
     background-color: #261e1c;
@@ -46,16 +53,8 @@ display: flex;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
 /* accordion */
-
-.conteiner {
-    margin: 0 auto;
-    padding: 4rem;
-    width: 48rem;
-    color: var(--text-color-paragraph);
-    font-size: 16px;
-}
-
 
 .orange-cursive-join {
     font-family: 'Great Vibes', cursive;
