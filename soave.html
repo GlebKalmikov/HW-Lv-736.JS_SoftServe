@@ -68,12 +68,11 @@
     <!-- Cart window -->
     <div class="cart-window">
         <div class="cart-window__background-wrapper">
+            <header class="cart-window__header">
+                <div>Shopping cart</div>
+                <img src="img/cross-exit.png" alt="">
+            </header>
             <div class="cart-window__window-rectangle">
-                <header>
-                    <div>Shopping cart</div>
-                    <div class="cross-exit"></div>
-                </header>
-                
                 <h3>Products</h3>
                 <div class="cart-window__products">
                     <div class="cart-window__product-details">
@@ -102,9 +101,9 @@
                     <h4>Email <span class="red-star">*</span></h4>
                     <input type="email" name="email" placeholder="Your email address">
                     <h4>Phone <span class="red-star">*</span></h4>
-                    <input type="number" name="phone" placeholder="Your phone">
+                    <input type="tel" name="phone" placeholder="Your phone">
                     <h4>Comment</h4>
-                    <input type="text" name="comment" placeholder="Your comment">
+                    <textarea type="text" name="comment" placeholder="Your comment" id="input-comment" rows="5" maxlength="400"></textarea>
                     <a href="#" class="order-button">Order</a>
                 </div>
             </div>
