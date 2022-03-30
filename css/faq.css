@@ -90,6 +90,8 @@
 @media (min-width: 720px) {
     .join-blok {
         display: flex;
+        column-gap: 100px;
+        height: 300px;
     }
 }
 
@@ -119,9 +121,7 @@
 
 input[type=text] {
     line-height: 1.5;
-    font-size: 1rem;
-    font-weight: 700;
-    padding: 15px;
+    font-size: 30px;
     font-family: 'Rubik', sans-serif;
     background-color: #332928;
     opacity: 0.9;
@@ -148,16 +148,15 @@ input[type=text] {
 }
 
 @media (min-width: 720px) {
-    .join-contact {
-     display: grid; 
-     grid-template-columns: 1fr 1fr 1fr 1fr;
+.join-contact {
+    display: flex;
+    height: 200px;
     }
 }
 
 .information {
-    padding-right: 10%;
-    margin: 40px 100px 30px 40px;
-    height: 180px;
+    column-count: 4;
+    column-gap: 80px;
 }
 
 .paragraph-end {
