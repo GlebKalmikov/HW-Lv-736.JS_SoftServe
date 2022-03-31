@@ -6,15 +6,23 @@
 }
     .faq__name {
         color: white;
-        font-size: 40px;  
+        font-size: 60px; 
+        height: 100px; 
     }
+
     .conteiner {
         margin: auto;
         padding: 4rem;
         color: var(--text-color-paragraph);
         font-size: 16px;
-    }
 
+    }.white-line-long {
+        border: solid 0.1px;
+        width: 700px;
+        margin: 8px 0;
+        background-color: var(--text-color-main);
+    }
+    
  /* accordion */
 .accordion {
     background-color: #261e1c;
@@ -58,7 +66,7 @@
  .grid-services {
      display: grid;
      height: 300px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;   
+     grid-template-columns: 1fr 1fr 1fr 1fr;   
 }
  }
 
