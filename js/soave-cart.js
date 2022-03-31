@@ -26,17 +26,17 @@
     };
     //не додає правильну кількість товарів по натисканню на кнопку
 
-    const cartIcon = document.querySelector(".cart__icon-with-counter")
-    let cartWindow = document.querySelector(".cart-window")
+//     const cartIcon = document.querySelector(".cart__icon-with-counter")
+//     let cartWindow = document.querySelector(".cart-window")
 
 
-    cartIcon.onclick = function() {
-        cartWindow.innerHTML +=
-        `div
-        `
-        ;
+//     cartIcon.onclick = function() {
+//         cartWindow.innerHTML +=
+//         `div
+//         `
+//         ;
 
-    }
+//     }
 
 
 
