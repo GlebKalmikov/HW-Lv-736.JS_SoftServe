@@ -1,7 +1,16 @@
+.submit-success-alert-window-background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(105, 105, 105, 0.5);
+}
+
 .submit-success-alert-window {
     position: fixed;
-    left: 25%;
-    top: 25%;
+    left: calc(50% - 150px);
+    top: calc(50% - 130px);
     display: flex;
     flex-direction: column;
     width: 300px;
