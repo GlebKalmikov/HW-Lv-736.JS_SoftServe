@@ -14,7 +14,7 @@
                 </a>
                 <a href="${product.link}" class="craft-wines__wine-name">${product.name}</a>
                 <p class="craft-wines__price"><span class="craft-wines__cost">${(product.price * rate).toFixed(2)}</span> <span class="craft-wines__currency">USD</span></p>
-                <a class="craft-wines__button-orange add-to-cart">Add to cart</a>
+                <a class="craft-wines__button-orange add-to-cart" id="${product.id}">Add to cart</a>
             </div>`;
         }
     }
