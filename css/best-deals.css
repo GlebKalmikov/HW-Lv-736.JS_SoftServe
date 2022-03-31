@@ -1,0 +1,20 @@
+.orange-best {
+  font-family: "Great Vibes", cursive;
+  color: var(--orange-main-color);
+  text-align: center;
+}
+
+.vines {
+  color: var(--text-color-main);
+  font-family: "Prata", serif;
+  font-size: 34px;
+  margin: 20px 0;
+  text-align: center;
+}
+.shop {
+  font-family: Rubik, sans-serif;
+  font-size: inherit;
+  color: var(--text-color-main);
+  text-align: center;
+  margin: 20px 0;
+}
