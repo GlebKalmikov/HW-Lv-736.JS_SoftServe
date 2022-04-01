@@ -1,4 +1,4 @@
-@media (min-width: 720px){
+@media (min-width: 1180px){
     .faq-conteiner {
         display: flex;
         }
@@ -102,12 +102,12 @@
      background-color: #1b1613;
  }
 
-@media (min-width: 720px) {
+@media (min-width: 600px) {
     .join-blok {
         display: flex;
         column-gap: 100px;
         height: 300px;
-        padding-left: 10px; 
+        padding-left: 30px; 
     }
 }
 
@@ -133,12 +133,22 @@
     font-size: 20px;
 }
 
+.button-join {
+    padding-left: 120px;
+    margin-top: 30px;
+}
+
 /* forma */
 
 .email-form {
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
     line-height: 1.5;
+    font-family: 'Rubik';
     font-size: 30px;
-    font-family: 'Rubik', sans-serif;
+    margin-bottom: 20px;
     background-color: #332928;
     opacity: 0.9;
 }
@@ -170,7 +180,7 @@
     height: 200px;
     column-gap: 100px;
     height: 300px;
-    padding-left: 50px; 
+    padding-left: 70px; 
     }
 }
 
