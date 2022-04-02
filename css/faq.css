@@ -1,5 +1,4 @@
-
-@media (min-width: 720px){
+@media (min-width: 1180px){
     .faq-conteiner {
         display: flex;
         }
@@ -8,11 +7,10 @@
         color: white;
         font-size: 60px; 
         height: 100px; 
-    }
+    } 
 
     .conteiner {
-        margin: auto;
-        padding: 4rem;
+        padding-left: 100px;
         color: var(--text-color-paragraph);
         font-size: 16px;
 
@@ -22,7 +20,11 @@
         margin: 8px 0;
         background-color: var(--text-color-main);
     }
-    
+
+    .wine-photo {
+        padding-left: 100px;
+    }
+
  /* accordion */
 .accordion {
     background-color: #261e1c;
@@ -66,7 +68,8 @@
  .grid-services {
      display: grid;
      height: 300px;
-     grid-template-columns: 1fr 1fr 1fr 1fr;   
+     grid-template-columns: 1fr 1fr 1fr 1fr; 
+     padding-left: 50px;  
 }
  }
 
@@ -95,11 +98,16 @@
 
  /* join */
 
-@media (min-width: 720px) {
+ .join-background {
+     background-color: #1b1613;
+ }
+
+@media (min-width: 600px) {
     .join-blok {
         display: flex;
         column-gap: 100px;
         height: 300px;
+        padding-left: 30px; 
     }
 }
 
@@ -125,12 +133,22 @@
     font-size: 20px;
 }
 
+.button-join {
+    padding-left: 120px;
+    margin-top: 30px;
+}
+
 /* forma */
 
-input[type=text] {
+.email-form {
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
     line-height: 1.5;
+    font-family: 'Rubik';
     font-size: 30px;
-    font-family: 'Rubik', sans-serif;
+    margin-bottom: 20px;
     background-color: #332928;
     opacity: 0.9;
 }
@@ -157,14 +175,17 @@ input[type=text] {
 
 @media (min-width: 720px) {
 .join-contact {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 200px;
+    column-gap: 100px;
+    height: 300px;
+    padding-left: 70px; 
     }
 }
 
-.information {
-    column-count: 4;
-    column-gap: 80px;
+.hover-shadow cursor {
+    background-size: 20px;
 }
 
 .paragraph-end {

@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.craft-wines-section p {
+.craft-wines-section > p {
     font-family: Rubik, sans-serif;
     font-size: 18px;
     color: var(--text-color-main);
@@ -14,32 +14,25 @@
     margin: 20px 0;
 }
 
-.craft-wines__shop-wine-cards {
-    display: flex;
-    flex-direction: column;
-}
-
 .craft-wines__wine-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* height: 500px; */
     justify-content: space-evenly;
-    margin: 30px;
+    margin: 15px 30px;
+    color: var(--text-color-main);
+    font-family: Rubik, sans-serif;
 }
 
 .craft-wines__wine-card img {
     width: 100%;
 }
 
+.craft-wines__wine-card a,
 .craft-wines__wine-card p {
-    /* line-height: 26px; */
-    font-family: Rubik, sans-serif;
+    margin-top: 18px;
     font-size: 18px;
     color: var(--text-color-main);
-}
-
-.craft-wines__wine-card a {
     text-decoration: none;
 }
 
@@ -52,41 +45,51 @@
     color: var(--text-color-main);
     text-decoration: none;
     padding: 15px 25px 15px 25px;
-    font-family: 'Rubik', sans-serif;
     font-size: 15px;
     font-weight: 700;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .craft-wines__button-orange:hover {
     background-color: var(--button-hover-color);
+    cursor: pointer;
 }
-
-
 
 @media (min-width: 760px) {
     .craft-wines__shop-wine-cards {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        display: grid;
+        gap: 30px;
+        grid-template-areas: "one two"
+                             "three four";
         max-width: 1180px;
         margin: auto;
         padding: 0 30px;
    }
 
+   .one {
+    grid-area: one;
+   }
+
+   .two {
+    grid-area: two;
+   }
+
+   .three {
+    grid-area: three;
+   }
+
+   .four {
+    grid-area: four;
+   }
+   
     .craft-wines__wine-card {
-        width: 50%;
         margin: 0;
     }
-
 }
 
 @media (min-width: 990px) {
     .craft-wines__shop-wine-cards {
-        
-    }
-
-    .craft-wines__wine-card {
-        width: 25%;
-    }   
+        grid-template-areas: "one two three four";
+    } 
 }
