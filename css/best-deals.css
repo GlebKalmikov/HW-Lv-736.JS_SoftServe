@@ -18,3 +18,14 @@
   text-align: center;
   margin: 20px 0;
 }
+.grid-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box {
+  display: flex;
+  margin: 100px;
+}
+.imege {
+  margin: 0 auto;
+}
