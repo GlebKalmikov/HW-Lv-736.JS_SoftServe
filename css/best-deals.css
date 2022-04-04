@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .orange-best {
   font-family: "Great Vibes", cursive;
   color: var(--orange-main-color);
@@ -20,12 +25,50 @@
 }
 .grid-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin-top: 50px;
+
+  flex-wrap: wrap;
 }
 .box {
   display: flex;
-  margin: 100px;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  margin-top: 100px;
 }
-.imege {
-  margin: 0 auto;
+.image {
+  max-width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.size {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1170px;
+  margin: 50px 200px 70px 250px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 375px;
+}
+.years {
+  font-size: 100%;
+  color: #c8693a !important;
+}
+.name {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: Prata, serif;
+}
+.color-text {
+  color: rgb(137, 128, 130);
+  font-family: Rubik, sans-serif;
+}
+.card {
+  padding-right: 10%;
+  margin: 1em;
 }
