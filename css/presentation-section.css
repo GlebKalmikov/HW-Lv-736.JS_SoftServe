@@ -10,6 +10,7 @@
   min-width: 30%;
   padding: 0 15px;
 }
+
 @media (max-width: 994px) {
   .presentation-section .presentation-grid {
     flex-basis: 46%;

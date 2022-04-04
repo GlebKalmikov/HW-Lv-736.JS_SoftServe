@@ -32,9 +32,11 @@
   color: #fff;
 }
 .header_logo img {
-  max-width: 100%;
+  /* max-width: 100%; */
   height: auto;
+  width: 150px;
   display: block;
+  
 }
 .header_burger {
   display: none;
@@ -43,18 +45,22 @@
   display: flex;
   position: relative;
   z-index: 2;
-  font-family:'Rubik'
+  font-family:'Rubik', sans-serif;
+  margin-left: 15em;
 }
 .header_list li {
   list-style: none;
   margin: 0 0 0 20px;
-  font-family:'Rubik'
+  font-family:'Rubik', sans-serif;
 }
 .header_link {
   color: #fff;
-  text-transform: uppercase;
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: none;
+  font-weight:600;
+}
+.header_link:hover{
+  color: var(--orange-main-color);
 }
 
 @media (max-width:  980px) {
@@ -134,14 +140,16 @@
   .header_list {
     display: block;
     font-family:'Rubik' ;
-    font-size: 20px;
+    font-size: 20px
+  }
   }
   .header_list li {
     margin: 0 0 1px 0;
     font-family:'Rubik'
   }
   .header_link {
-    font-size: 24px;
+    font-size: 14px;
+    margin-left: 18px;
   }
   .header_social_menu {
     position: fixed;
@@ -160,4 +168,4 @@
   .header_social_list li {
     margin: 0 0 20px 0;
   }
-}
+

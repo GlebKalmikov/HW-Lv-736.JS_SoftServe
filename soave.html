@@ -10,7 +10,27 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <div class="container">
+            <div class="header_body">
+              <a href="#" class="header_logo"><img src="img/caliwines-icon.svg" alt="logo"></a>
+              <div class="header_burger">
+                <span></span>
+              </div>
+              <div class="header_menu">
+                <ul class="header_list">
+                  <li><a href="#best-deals" class="header_link">Best deals</a></li>
+                  <li><a href="#history" class="header_link">History</a></li>
+                  <li><a href="about-us.html" class="header_link">About Us</a></li>
+                  <li><a href="shop.html" class="header_link">Shop</a></li>
+                  <li><a href="#contact-us" class="header_link">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="header_social_menu">
+              </div>
+            </div>
+          </div>   
+    </header>
 
     <!-- <h1 class="product-page__product-name">Soave</h1> -->
     <section class="product-page">
@@ -70,7 +90,7 @@
         <div class="cart-window__background-wrapper">
             <header class="cart-window__header">
                 <div>Shopping cart</div>
-                <img src="img/cross-exit.png" alt="">
+                <img src="img/cross-exit.png" alt="" class="close-btn">
             </header>
             <div class="cart-window__window-rectangle">
                 <h3>Products</h3>
@@ -83,8 +103,8 @@
                             <div class="cart-window__quantity-counter">
                                 <div class="cart-window__quantitifier">2</div>
                                 <div class="cart-window__quantity-counter__arrows">
-                                    <img src="img/arrow-up.png" class="cart-window__counter-arrow-up"></img>
-                                    <img src="img/arrow-down.png" class="cart-window__counter-arrow-down"></img>
+                                    <img src="img/arrow-up.png" data-id="8" class="cart-window__counter-arrow-up plus"></img>
+                                    <img src="img/arrow-down.png" data-id="8" class="cart-window__counter-arrow-down minus"></img>
                                 </div>
                             </div>
                         </div>
@@ -97,11 +117,11 @@
                 <div class="cart-window__place-an-order">
                     <h3>Place an order</h3>
                     <h4>Name <span class="red-star">*</span></h4>
-                    <input type="text" name="name" placeholder="Your name">
+                    <input type="text" name="name" placeholder="Your name" id="client-name" required>
                     <h4>Email <span class="red-star">*</span></h4>
-                    <input type="email" name="email" placeholder="Your email address">
+                    <input type="email" name="email" placeholder="Your email address" id="client-email" required>
                     <h4>Phone <span class="red-star">*</span></h4>
-                    <input type="tel" name="phone" placeholder="Your phone">
+                    <input type="tel" name="phone" placeholder="Your phone" id="client-phone" required>
                     <h4>Comment</h4>
                     <textarea type="text" name="comment" placeholder="Your comment" id="input-comment" rows="5" maxlength="400"></textarea>
                     <a href="#" class="order-button">Order</a>
@@ -110,7 +130,69 @@
         </div>
     </div>
 
-    <footer></footer>
+    <footer>
+        <div class="join-blok" id="contact-us">
+            <div class="join-conteiner">
+              <div class="orange-cursive-join">Join</div>
+              <h2 class="join">Join Our Newsletter Now</h2>
+              <p class="join-paragraph">Learn more about wines and our special offers with our weekly digests.</p>
+            </div>
+            <div class="button-join">
+              <form>
+                <input class="email-form" type="text" placeholder="Email address" name="email" required>
+                <br>
+                <button class="favorite styled join-submit" type="button" id="join-submit">Submit</button>
+              </form>
+              </div>
+            </div>
+          <!-- Successful submit alert start-->
+          <!-- Make js for this -->
+          <div class="submit-success-alert">
+          </div>
+          <!-- Successful submit alert end-->
+         <div class="join-contact">
+        <div>
+            <h3 class="services">Contact Us</h3>
+            <div class="orange-line-short"></div>
+            <a class="section-paragraph" href="caliwines@email.com">caliwines@email.com</a>
+            <p class="section-paragraph">+1 (234) 567 89 00</p>
+            <p class="section-paragraph">1111 White Ln, St Helena, CA 94574</p>
+        </div>
+         <div>
+           <h3 class="services">Information</h3>
+           <div class="orange-line-short"></div>
+           <p class="section-paragraph"> History</p>
+           <p class="section-paragraph">Awards</p>
+           <p class="section-paragraph">FAQ</p>
+         </div>
+         <div>
+           <h3 class="services">Shop</h3>
+           <div class="orange-line-short"></div>
+           <p class="section-paragraph">Best Deals</p>
+           <p class="section-paragraph"> Delivery Information</p>
+           <p class="section-paragraph"> Terms & Conditions</p>
+         </div>
+         <div>
+           <h3 class="services">Instagram</h3>
+           <div class="orange-line-short"></div>
+      <!-- carousel -->
+           <div class="photo-end">
+            <div class="column">
+              <img src="img/stoper.png" alt="stoper" style="width: 80px;" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="img/sommelier.png" alt="sommelier" style="width: 80px;" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="img/alcohol.png" alt="alcohol" style="width: 80px;" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="img/grape.png" alt="grape" style="width: 80px;" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+          </div>
+         </div>
+         </div>
+    </footer>
 
     <script src="js/navmenu.js"></script>
     <!-- <script src="js/age-checker.js"></script> -->
@@ -118,5 +200,6 @@
     <script src="js/section.js"></script>
     <!-- <script src="js/cart-indicator.js"></script> -->
     <script src="js/soave-cart.js"></script>
+    <script src="js/cart-window.js"></script>
 </body>
 </html>
