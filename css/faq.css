@@ -1,7 +1,7 @@
 @media (min-width: 1180px){
     .faq-conteiner {
         display: flex;
-        }
+    }
 }
     .faq__name {
         color: white;
@@ -175,7 +175,7 @@
 }
 
 @media (min-width: 720px) {
-.join-contact {
+    .join-contact {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 200px;

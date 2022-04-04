@@ -2,13 +2,8 @@
     padding: 60px 30px;
 }
 
-.product-page__gallery {
-
-}
-
 .product-page__gallery-scroll {
     display: flex;
-    /* background-color: cornflowerblue; */
     align-items: center;
     justify-content: space-between;
 }
@@ -60,7 +55,6 @@
     line-height: 26px;
 }
 
-
 .product-number {
     /* color: var(--text-color-main); */
     font-family: 'Great Vibes', cursive;
@@ -82,7 +76,6 @@
     font-weight: 600;
     line-height: 30px;
 }
-
 
 .counter-and-button {
     display: flex;
@@ -157,7 +150,6 @@
     line-height: 26px;
 }
 
-
 @media (min-width: 760px) {
     .product-page {
         display: flex;
@@ -171,4 +163,3 @@
         margin-left: 50px;
     }
 }
-
