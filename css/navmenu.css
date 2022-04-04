@@ -140,8 +140,7 @@
   .header_list {
     display: block;
     font-family:'Rubik' ;
-    font-size: 20px;
-    text-align: center;
+    font-size: 20px
   }
   }
   .header_list li {
@@ -149,7 +148,8 @@
     font-family:'Rubik'
   }
   .header_link {
-    font-size: 24px;
+    font-size: 14px;
+    margin-left: 18px;
   }
   .header_social_menu {
     position: fixed;
@@ -168,3 +168,4 @@
   .header_social_list li {
     margin: 0 0 20px 0;
   }
+
