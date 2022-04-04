@@ -70,7 +70,7 @@
         <div class="cart-window__background-wrapper">
             <header class="cart-window__header">
                 <div>Shopping cart</div>
-                <img src="img/cross-exit.png" alt="">
+                <img src="img/cross-exit.png" alt="" class="close-btn">
             </header>
             <div class="cart-window__window-rectangle">
                 <h3>Products</h3>
@@ -83,8 +83,8 @@
                             <div class="cart-window__quantity-counter">
                                 <div class="cart-window__quantitifier">2</div>
                                 <div class="cart-window__quantity-counter__arrows">
-                                    <img src="img/arrow-up.png" class="cart-window__counter-arrow-up"></img>
-                                    <img src="img/arrow-down.png" class="cart-window__counter-arrow-down"></img>
+                                    <img src="img/arrow-up.png" data-id="8" class="cart-window__counter-arrow-up plus"></img>
+                                    <img src="img/arrow-down.png" data-id="8" class="cart-window__counter-arrow-down minus"></img>
                                 </div>
                             </div>
                         </div>
@@ -97,11 +97,11 @@
                 <div class="cart-window__place-an-order">
                     <h3>Place an order</h3>
                     <h4>Name <span class="red-star">*</span></h4>
-                    <input type="text" name="name" placeholder="Your name">
+                    <input type="text" name="name" placeholder="Your name" id="client-name" required>
                     <h4>Email <span class="red-star">*</span></h4>
-                    <input type="email" name="email" placeholder="Your email address">
+                    <input type="email" name="email" placeholder="Your email address" id="client-email" required>
                     <h4>Phone <span class="red-star">*</span></h4>
-                    <input type="tel" name="phone" placeholder="Your phone">
+                    <input type="tel" name="phone" placeholder="Your phone" id="client-phone" required>
                     <h4>Comment</h4>
                     <textarea type="text" name="comment" placeholder="Your comment" id="input-comment" rows="5" maxlength="400"></textarea>
                     <a href="#" class="order-button">Order</a>
@@ -118,5 +118,6 @@
     <script src="js/section.js"></script>
     <!-- <script src="js/cart-indicator.js"></script> -->
     <script src="js/soave-cart.js"></script>
+    <script src="js/cart-window.js"></script>
 </body>
 </html>
