@@ -99,6 +99,7 @@
 .join-blok {
     width: 100%;
 }
+
 .orange-cursive-join {
     color: #c8693a;
     font-size: 30px;
@@ -114,6 +115,7 @@
 .join-paragraph {
     color: white;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 /* forma */
@@ -126,7 +128,6 @@
     color: white;
     border: none;
     cursor: pointer;
-    width: 100%;
     line-height: 1.5;
     font-family: 'Rubik';
     font-size: 15px;
@@ -134,6 +135,7 @@
     margin-bottom: 20px;
     background-color: #332928;
     opacity: 0.9;
+    width: 100%;
 }
 
 .join-submit {
@@ -145,7 +147,6 @@
     background-color: #898082;
     height: 1px;
     margin-bottom: 100px;
-    
 }
 
 /* button */
@@ -168,17 +169,14 @@
     background-color: var(--button-hover-color);
 }
 
-.hover-shadow cursor {
-    background-size: 20px;
+.hover-shadow {
+    width: 80px;
+    cursor: pointer;
 }
 
 footer {
     width: 100%;
     background-color: var(--footer-background-color);
-}
-
-.join-contact {
-    padding: 50px 30px;
 }
 
 .paragraph-end {
@@ -199,9 +197,9 @@ footer {
         justify-content: space-between;
         max-width: 1180px;
         margin: auto;
-        column-gap: 100px;
-        height: 400px;
-        
+        /* column-gap: 100px; */
+        /* height: 400px; */
+        align-items: center;
     }
 
     .grid-services {
@@ -218,15 +216,36 @@ footer {
         margin: auto;
         max-width: 1180px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        column-gap: 100px;
+        column-gap: 20px;
         height: 300px;
-        padding-left: 70px;
+    }
+
+    .join {
+        margin-bottom: 0;
+    }
+
+    .form-box {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .join-paragraph {
+        margin-bottom: 40px;
     }
 
     .faq-conteiner {
         display: flex;
         margin: auto;
         max-width: 1180px;
+        width: 100%;
+    }
+    
+    .conteiner {
+        min-width: 55%;
+    }
+
+    .wine-bottle-accordeon {
+        max-width: 45%;
     }
 }
 
@@ -234,4 +253,5 @@ footer {
     .faq-conteiner {
         padding: 30px;
     }
+}
     
