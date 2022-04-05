@@ -1,5 +1,7 @@
+@media (max-width: 1180px) {
 .faq-conteiner {
     padding: 30px;
+ }
 }
 
 .conteiner {
@@ -11,7 +13,6 @@
 }
 
 .wine-bottle-accordeon {
-    border: solid 10px rgb(255, 33, 33);
     width: 100%;
     margin: auto;
 }
@@ -127,7 +128,7 @@
 
 /* forma */
 .form-box {
-    margin-top: 100px;
+    margin-top: 80px;
     padding: 30px;
     width: 100%;
 }
@@ -136,7 +137,7 @@
     color: white;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 93%;
     line-height: 1.5;
     font-family: 'Rubik';
     font-size: 15px;
