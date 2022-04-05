@@ -1,5 +1,5 @@
 (async function () {
-    const wineCards = document.querySelector('.craft-wines__shop-wine-cards');
+    const wineCards = document.querySelector('.products-container-of-bla-bla');//'.craft-wines__shop-wine-cards'
 
     let rate = 1; //USD
     // let products;
