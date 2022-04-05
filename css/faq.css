@@ -1,31 +1,31 @@
-@media (min-width: 1180px){
+@media (min-width: 760px) {
     .faq-conteiner {
+        max-width: 1180px;
         display: flex;
     }
 }
-    .faq__name {
-        color: white;
-        font-size: 60px; 
-        height: 100px; 
-    } 
 
-    .conteiner {
-        padding-left: 100px;
-        color: var(--text-color-paragraph);
-        font-size: 16px;
+.faq__name {
+    color: white;
+    font-size: 60px;
+    height: 100px;
+}
 
-    }.white-line-long {
-        border: solid 0.1px;
-        width: 700px;
-        margin: 8px 0;
-        background-color: var(--text-color-main);
-    }
+.conteiner {
+    padding-left: 100px;
+    color: var(--text-color-paragraph);
+    font-size: 16px;
 
-    .wine-photo {
-        padding-left: 100px;
-    }
+}
 
- /* accordion */
+.white-line-long {
+    border: solid 0.1px;
+    width: 700px;
+    margin: 8px 0;
+    background-color: var(--text-color-main);
+}
+
+/* accordion */
 .accordion {
     background-color: #261e1c;
     color: white;
@@ -39,7 +39,8 @@
     transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.active,
+.accordion:hover {
     background-color: #261e1c;
 }
 
@@ -63,21 +64,21 @@
     transition: max-height 0.2s ease-out;
 }
 
- /* grid */
- @media (min-width: 720px) {
- .grid-services {
-     display: grid;
-     height: 300px;
-     grid-template-columns: 1fr 1fr 1fr 1fr; 
-     padding-left: 50px;  
+/* grid */
+@media (min-width: 720px) {
+    .grid-services {
+        display: grid;
+        height: 300px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-left: 50px;
+    }
 }
- }
 
 .fast-services {
     padding-right: 10%;
     margin: 1em;
 }
- 
+
 .services {
     color: white;
     font-size: 25px;
@@ -96,30 +97,28 @@
     font-size: 30px;
 }
 
- /* join */
+/* join */
 
- .join-background {
-     background-color: #1b1613;
- }
-
-@media (min-width: 600px) {
+@media (min-width: 720px) {
     .join-blok {
         display: flex;
+        max-width: 1170px;
         column-gap: 100px;
-        height: 300px;
-        padding-left: 30px; 
+        height: 500px;
+        padding-left: 50px;
+        background-color: #1b1613;
     }
 }
 
 .orange-cursive-join {
     color: #c8693a;
     margin: 40px 100px 30px 40px;
-    
+
 }
 
 .join-conteiner {
     margin: -50px 100px 30px 50px;
-
+    padding: 40px;
 }
 
 .join {
@@ -176,12 +175,13 @@
 
 @media (min-width: 720px) {
     .join-contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 200px;
-    column-gap: 100px;
-    height: 300px;
-    padding-left: 70px; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 200px;
+        column-gap: 100px;
+        height: 400px;
+        padding-left: 70px;
+        background-color: #1b1613;
     }
 }
 
@@ -191,6 +191,6 @@
 
 .paragraph-end {
     color: white;
-    font-size: 12px;
-    text-align: center;
+    font-size: 18px;
+    background-color: #130f0e;
 }
