@@ -1,21 +1,20 @@
 (async function () {
-    const wineCards = document.querySelector('.products-container-of-bla-bla');//'.craft-wines__shop-wine-cards'
+    const wineCards = document.querySelector('.craft-wines__shop-wine-cards');
 
     let rate = 1; //USD
-    // let products;
+    let products;
+
+    //фільтр з масива по айді і додавання в локал сторідж
+    function productInfoClick(ev) {
+        const productId = ev.target.dataset.id;
+        const product = products.filter( product => product.id === productId)[0];
+        localStorage.product = JSON.stringify(product);
+    }
+
 
     function renderProductCards() {
-        wineCards.innerHTML = '';
         for (const product of products) {
-            wineCards.innerHTML += 
-            `<div class="craft-wines__wine-card ${product.class}">
-                <a href="${product.link}" class="link-to-item-page">
-                    <img src="${product.image}" alt="Bottle of ${product.name}" class="item-photo">
-                </a>
-                <a href="${product.link}" class="craft-wines__wine-name">${product.name}</a>
-                <p class="craft-wines__price"><span class="craft-wines__cost">${(product.price * rate).toFixed(2)}</span> <span class="craft-wines__currency">USD</span></p>
-                <a class="craft-wines__button-orange add-to-cart" data-id="${product.id}" id="${product.id}">Add to cart</a>
-            </div>`;
+            // wineCards.innerHTML ;
             const addButton = document.querySelectorAll(".craft-wines__button-orange");
             let counter = document.querySelector(".cart__counter");
             
@@ -98,6 +97,8 @@
             });
 
         }
+        document.querySelectorAll('.link-to-item-page')
+            .forEach( link => link.addEventListener('click', productInfoClick) );
     }
 
     document.onclick = (event) => {
@@ -125,13 +126,11 @@
         renderCart();
     }
 
-    // удалить товар, но что-то не выходит
+    // удалить товар
     const deleteFunction = (id) => {
         delete cart;
         renderCart();
     }
-
-
 
     const response = await fetch('productscraftwine.json');
     products = await response.json();
