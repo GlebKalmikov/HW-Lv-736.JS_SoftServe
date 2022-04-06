@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+# best-deals {
+  width: 100%;
+  flex-wrap: wrap;
+}
 
 .orange-best {
   font-family: "Great Vibes", cursive;
@@ -33,10 +37,8 @@
 .box {
   display: flex;
   justify-content: center;
-  width: 100%;
   flex-wrap: wrap;
-  margin-bottom: 50px;
-  margin-top: 100px;
+  margin: 50px 20px;
 }
 .image {
   max-width: 100%;
@@ -44,14 +46,8 @@
   flex-wrap: wrap;
 }
 .size {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  max-width: 1170px;
-  margin: 50px 200px 70px 250px;
-  width: 100%;
-  justify-content: center;
-  flex-wrap: wrap;
-  min-width: 375px;
+  margin: auto;
+  padding: 30px;
 }
 .years {
   font-size: 100%;
@@ -71,4 +67,7 @@
 .card {
   padding-right: 10%;
   margin: 1em;
+}
+.box-history {
+  width: auto;
 }
