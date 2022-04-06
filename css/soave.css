@@ -11,7 +11,6 @@
 .product-page__gallery-carousel img {
     max-width: 540px;
     width: 100%;
-    /* flex-shrink: 0.5; */
 }
 
 .arrow-button {
@@ -30,12 +29,11 @@
 }
 
 .product-page__gallery-miniature img {
-    height: 65px;
+    height: 110px;
     border: solid 1px var(--text-color-paragraph);
 }
 
 .product-page__product-name {
-    /* color: var(--text-color-main); */
     font-family: 'Prata', serif;
     color: var(--text-color-main);
     font-size: 22px;
@@ -56,7 +54,6 @@
 }
 
 .product-number {
-    /* color: var(--text-color-main); */
     font-family: 'Great Vibes', cursive;
     font-size: 14px;
     line-height: 20px;
@@ -72,7 +69,6 @@
 .product-page__currency {
     font-family: Rubik, sans-serif;
     font-size: 20px;
-    /* color: var(--text-color-main); */
     font-weight: 600;
     line-height: 30px;
 }
@@ -153,7 +149,6 @@
 @media (min-width: 760px) {
     .product-page {
         display: flex;
-        height: 100vw;
         max-width: 1180px;
         margin: auto;
     }
