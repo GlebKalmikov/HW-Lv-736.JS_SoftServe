@@ -1,0 +1,12 @@
+const name = "Glib";
+const lastName = "Kalmikov";
+const group = "Lv-736";
+const birth = 1990;
+let maritalStatus = false;
+console.log(typeof birth);
+console.log(typeof maritalStatus);
+console.log(typeof group);
+let variable1 = null;
+let variable2 = undefined;
+console.log(typeof variable1);
+console.log(typeof variable2);
