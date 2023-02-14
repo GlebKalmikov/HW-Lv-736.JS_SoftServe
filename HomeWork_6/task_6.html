@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="input1" value="Text1" />
+    <input type="text" id="input2" value="Text2" />
+  </body>
+  <script>
+    let data1 = prompt("Enter your first message", "");
+    let data2 = prompt("Enter your second message", "");
+    let inp1 = document.getElementById("input1");
+    let inp2 = document.getElementById("input2");
+    inp1.value = data1;
+    inp2.value = data2;
+
+    let inp1Val = inp1.value;
+    let inp2Val = inp2.value;
+    inp1.value = inp2Val;
+    inp2.value = inp1Val;
+  </script>
+</html>

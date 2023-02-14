@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul id="list">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+    </ul>
+
+    <script>
+       const parentEl = document.getElementById("list");
+       const firstEl = parentEl.children[0].innerHTML;
+       const lastEl = parentEl.children[4].innerHTML;
+       const secondtEl = parentEl.children[1].innerHTML;
+       const fourthEl = parentEl.children[3].innerHTML;
+       const thirdtEl = parentEl.children[2].innerHTML;
+
+      // const firstEl = document.getElementById("list").firstChild.innerHTML;
+      // const lastEl = document.getElementById("list").lastChild.innerHTML;
+      // const secondtEl =
+      //   document.getElementById("list").firstChild.nextSibling.innerHTML;
+      // const fourthEl =
+      //   document.getElementById("last").lastChild.previousSibling.innerHTML;
+      // const thirdtEl =
+      //   document.getElementById("list").firstChild.nextSibling.innerHTML;
+
+      alert(firstEl);
+      alert(lastEl);
+      alert(secondtEl);
+      alert(fourthEl);
+      alert(thirdtEl);
+    </script>
+  </body>
+</html
