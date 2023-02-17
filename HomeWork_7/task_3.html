@@ -1,0 +1,18 @@
+<button onclick="setBackground('blue')">Click to make the page blue.</button>
+<button ondblclick="setBackground('pink')">
+  Double-click to make the page pink.
+</button>
+<button onmousedown="setBackground('brown')" onmouseup="setBackground('white')">
+  Click and hold to make the page brown.
+</button>
+<a
+  href="#"
+  onmousedown="setBackground('yellow')"
+  onmouseup="setBackground('white')"
+  >Hover over to make page yellow.</a
+>
+<script>
+  function setBackground(color) {
+    document.body.style.backgroundColor = color;
+  }
+</script>

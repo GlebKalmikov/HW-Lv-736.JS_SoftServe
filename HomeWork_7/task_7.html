@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <select name="country" id="country">
+      <option value="ger">Germany</option>
+      <option value="usa">USA</option>
+      <option value="ukr">Ukraine</option>
+    </select>
+
+    <select name="cities" id="cities"></select>
+    <p></p>
+
+    <script>
+      const cityArr = {
+        ger: ["Berlin", "Frankfurt", "Hamburg", "Drezde"],
+        usa: ["New-York", "San-Francisco", "Chikago", "Boston"],
+        ukr: ["Lviv", "Kyiv", "Kharkiv", "Odesa"],
+      };
+      let prime_select = document.getElementById("country");
+      prime_select.addEventListener("change", createList);
+      prime_select.addEventListener("change", toPargraph);
+
+      let city_select = document.getElementById("cities");
+      city_select.addEventListener("change", toPargraph);
+
+      function createList() {
+        city_select.innerHTML = "";
+        let selected_country = prime_select.value;
+        for (let i = 0; i < cityArr[selected_country].length; i++) {
+          let new_option = document.createElement("option");
+          new_option.innerHTML = cityArr[selected_country][i];
+          city_select.appendChild(new_option);
+        }
+      }
+      let = parag = document.querySelector("p");
+
+      function toPargraph() {
+        parag.innerHTML = "";
+        parag.innerHTML =
+          prime_select.options[prime_select.selectedIndex].text +
+          ", " +
+          city_select.options[city_select.selectedIndex].text;
+      }
+    </script>
+  </body>
+</html>

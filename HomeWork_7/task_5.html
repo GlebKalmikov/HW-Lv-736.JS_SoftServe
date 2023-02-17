@@ -1,0 +1,18 @@
+<button id="liveButton">Live button!</button>
+<p id="myId"></p>
+<script>
+  let x = document.getElementById("liveButton");
+  x.addEventListener("mouseover", mouseOverFunction);
+  x.addEventListener("click", mouseClickFunction);
+  x.addEventListener("mouseout", mouseOutFunc);
+
+  function mouseOverFunction() {
+    document.getElementById("myId").innerHTML += "Mouse on me!<br>";
+  }
+  function mouseClickFunction() {
+    document.getElementById("myId").innerHTML += "I was pressed!<br>";
+  }
+  function mouseOutFunc() {
+    document.getElementById("myId").innerHTML += "Mouse is not on me!<br>";
+  }
+</script>

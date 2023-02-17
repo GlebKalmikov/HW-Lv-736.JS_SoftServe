@@ -1,0 +1,10 @@
+<div id="result"></div>
+<script>
+  function displayWindowSize() {
+    let w = window.innerWidth;
+    let h = window.innerHeight;
+    let size = "Width: " + w + ", " + "Height: " + h;
+    document.getElementById("result").innerHTML = size;
+  }
+  window.addEventListener("resize", displayWindowSize);
+</script>

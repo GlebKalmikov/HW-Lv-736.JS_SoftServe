@@ -1,0 +1,17 @@
+<form>
+  <select id="nameSet">
+    <option>Ben</option>
+    <option>Bob</option>
+    <option>Mihael</option>
+    <option>Zoe</option>
+    <option>Alan</option>
+  </select>
+  <input type="button" id="myBtn" value="Choose and Delete" />
+</form>
+<script>
+  myBtn.addEventListener("click", deleteColor);
+  function deleteColor() {
+    let x = document.getElementById("nameSet");
+    x.remove(x.selectedIndex);
+  }
+</script>
