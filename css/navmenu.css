@@ -26,6 +26,9 @@
   width: 150px;
   display: block;
 }
+.header_menu {
+  display: flex;
+}
 .header_burger {
   display: none;
 }
@@ -119,6 +122,7 @@
   }
   .header_menu.active {
     top: 0;
+    justify-content: flex-start;
   }
   .header_list {
     display: block;
