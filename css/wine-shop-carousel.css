@@ -1,24 +1,28 @@
 .wine-card {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    align-items: center;
-    height: 500px;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
 }
 
 .wine-card img {
-    height: 360px;
-    width: 360px;
+  height: 272.5px;
+  width: 272.5px;
 }
 
 .wine-card p {
-    line-height: 26px;
-    font-family: Rubik, sans-serif;
-    font-size: 18px;
-    color: var(--text-color-main);
+  line-height: 26px;
+  font-family: Rubik, sans-serif;
+  font-size: 18px;
+  padding-top: 18px;
+  color: var(--text-color-main);
 }
 
 .price {
-    font-weight: 700;
+  font-weight: 700;
+}
+.add-to-cart {
+  margin-top: 18px;
 }

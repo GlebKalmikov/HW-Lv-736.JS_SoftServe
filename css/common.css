@@ -1,57 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-/*Fonts used
-    font-family: 'Prata', serif;            //headers
-    font-family: 'Rubik', sans-serif;       //paragraphs
-    font-family: 'Great Vibes', cursive;    //orange cursive
-*/
-
 :root {
-    background-color: var(--background-color);
-    --orange-main-color: #c8693a;
-    --background-color: #261e1c;
-    --background-darker-color: #241918;
-    --text-color-main: #ffffff;
-    --text-color-paragraph: #898082;
-    --button-hover-color: #af572b;
-    --form-box-background-color: #25211f;
-    --footer-background-color: #1b1613;
-    --copyright-plack-color: #130f0e;
-    scroll-behavior: smooth;
+  background-color: var(--background-color);
+  --orange-main-color: #c8693a;
+  --background-color: #261e1c;
+  --background-darker-color: #241918;
+  --text-color-main: #ffffff;
+  --text-color-paragraph: #898082;
+  --button-hover-color: #af572b;
+  --form-box-background-color: #25211f;
+  --footer-background-color: #1b1613;
+  --copyright-plack-color: #130f0e;
+  scroll-behavior: smooth;
 }
 
 .button-orange {
-    background-color: var(--orange-main-color);
-    color: var(--text-color-main);
-    text-decoration: none;
-    padding: 15px 25px 15px 25px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    border-radius: 2px;
+  background-color: var(--orange-main-color);
+  color: var(--text-color-main);
+  text-decoration: none;
+  padding: 15px 25px 15px 25px;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 2px;
 }
 
 .button-orange:hover {
-    background-color: var(--button-hover-color);
+  background-color: var(--button-hover-color);
 }
 
-
 .vine-monogram {
-    height: 31px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  height: 31px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text-ui-brand-color {
-    vertical-align: baseline;
-    text-align: center;
-    color: var(--ui-brand-color)
+  vertical-align: baseline;
+  text-align: center;
+  color: var(--ui-brand-color);
 }

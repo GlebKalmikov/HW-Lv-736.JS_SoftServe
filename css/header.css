@@ -1,30 +1,9 @@
 .header {
-  background-color: var(--background-color);
-  background-image: url(../img/boutique-wines-image.jpg);
+  background-image: url(/img/boutique-wines-image.jpg);
   background-size: cover;
-  background-position: left 64% bottom 45%;
-  height: 800px;
-  background-attachment: fixed;
-}
-@media (max-width: 767px) {
-  .header {
-    height: 900px;
-  }
-}
-@media (min-width: 768px) {
-  .header {
-    height: 900px;
-  }
-}
-@media (min-width: 600px) {
-  .header__nav .container {
-    display: flex;
-  }
-}
-
-.header-nav-logo {
-  font-family: 'Great Vibes';
-  color: var(--text-color-main);
+  max-width: 1440px;
+  height: 900px;
+  margin: auto;
 }
 
 .header__nav-menu-item {
@@ -32,28 +11,7 @@
   text-decoration: none;
 }
 
-.header__nav-menu-item:hover {
-  color: var(--orange-main-color);
-}
-
-.left-container {
-  display: block;
-}
-
-.right-container {
-  display: block;
-}
-@media (min-width: 768px) {
-  .right-container {
-    padding-right: 62px;
-    padding-top: 70px;
-    
-  }
-}
 .main-page-text {
-  padding-left: 22px;
-  padding-right: 0px;
-  margin-top: 154px;
   display: flex;
 }
 @media (min-width: 1280px) {
@@ -102,7 +60,7 @@
   color: var(--text-color-main);
   text-decoration: none;
   padding: 18px 25px 15px 25px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 17px;
   font-weight: bolder;
   border-radius: 3px;
@@ -116,7 +74,7 @@
   color: var(--text-color-main);
   text-decoration: none;
   padding: 15px 25px 15px 25px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 17px;
   font-weight: bolder;
   border: solid 3px white;
@@ -135,7 +93,7 @@
     color: var(--text-color-main);
     text-decoration: none;
     padding: 15px 25px 15px 25px;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 17px;
     font-weight: bolder;
     border-radius: 3px;
@@ -149,7 +107,7 @@
     color: var(--text-color-main);
     text-decoration: none;
     padding: 15px 25px 15px 25px;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 17px;
     font-weight: bolder;
     border: solid 3px white;
@@ -169,19 +127,17 @@
 }
 
 .boutique-wines-text {
-  font-family: 'Prata', serif;
+  font-family: "Prata", serif;
   color: var(--text-color-main);
   padding: 20px;
   font-size: 59px;
   font-weight: lighter;
-  padding-left: 0px;
-  line-height: 69px;
 }
 @media (max-width: 1280px) {
   .boutique-wines-text {
     max-width: 1px;
     font-size: 60px;
-    line-height: 115%;
+    line-height: 100%;
   }
 }
 @media (min-width: 768px) {
@@ -193,7 +149,7 @@
 
 .taste-our-text {
   color: var(--orange-main-color);
-  font-family: 'Great Vibes';
+  font-family: "Great Vibes";
   font-size: 14px;
 }
 @media (max-width: 767px) {
@@ -207,7 +163,7 @@
   }
 }
 .grown-with-love-text {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   color: var(--text-color-main);
   padding-top: 20px;
   line-height: 30px;
